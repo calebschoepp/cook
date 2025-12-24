@@ -95,7 +95,9 @@ async function displayInspirationRecipes() {
       ${recipe.image ? `
         <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-48 object-cover">
       ` : `
-        <div class="w-full h-48 bg-secondary"></div>
+        <div class="w-full h-48 bg-secondary flex items-center justify-center">
+          <span class="text-4xl">🍽️</span>
+        </div>
       `}
       <div class="p-4">
         <h3 class="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">${recipe.title}</h3>
