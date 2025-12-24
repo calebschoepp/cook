@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="antialiased">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="min-h-screen bg-background text-foreground">
+  <div class="container mx-auto px-4 max-w-7xl">
+    <header class="border-b border-border py-6 mb-8">
+      {{ partial "header.html" . }}
+    </header>
+    <main class="pb-12">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="border-t border-border py-6 mt-12 text-sm text-muted-foreground">
+      {{ partial "footer.html" . }}
+    </footer>
+  </div>
+</body>
+</html>

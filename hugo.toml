@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = "Caleb's Recipe Book"
+theme = 'cook'
+
+[taxonomies]
+  course = 'courses'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'All Recipes'
+    pageRef = '/recipes'
+    weight = 20
+  [[menus.main]]
+    name = 'By Course'
+    pageRef = '/courses'
+    weight = 30
+
+[outputs]
+  home = ['HTML', 'JSON']
+  section = ['HTML']
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'

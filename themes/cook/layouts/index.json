@@ -1,0 +1,16 @@
+{{- $recipes := dict -}}
+{{- range where site.RegularPages "Type" "recipe" -}}
+  {{- $courses := slice -}}
+  {{- range .GetTerms "courses" -}}
+    {{- $courses = $courses | append .LinkTitle -}}
+  {{- end -}}
+  {{- $recipe := dict
+    "title" .Title
+    "url" .RelPermalink
+    "description" .Params.description
+    "image" .Params.image
+    "courses" $courses
+  -}}
+  {{- $recipes = merge $recipes (dict .Title $recipe) -}}
+{{- end -}}
+{{ $recipes | jsonify }}
