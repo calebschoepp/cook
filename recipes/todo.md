@@ -1,6 +1,7 @@
 # Recipes to track
 
 - Chicken curry
+- Fancy mushroom thing
 - Chicken poppy seed salad
 - Taco salad
 - Banana Muffins

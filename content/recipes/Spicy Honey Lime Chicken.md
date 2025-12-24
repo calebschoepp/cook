@@ -8,7 +8,9 @@ prep time: 10 minutes
 time required: 50 minutes
 cook time: 10 minutes
 servings: 5
-courses: Appetizer, Main
+courses:
+- Appetizer
+- Main
 name: Spicy Honey Lime Chicken
 type: recipe
 layout: single
