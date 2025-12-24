@@ -73,9 +73,47 @@ window.pickRandomRecipe = async function() {
   `;
 };
 
-// Preload recipe data on page load
+// Display random inspiration recipes
+async function displayInspirationRecipes() {
+  const data = await loadRecipeData();
+  if (!data) {
+    console.error('Failed to load recipe data for inspiration');
+    return;
+  }
+
+  const container = document.getElementById('inspiration-recipes');
+  if (!container) return; // Not on homepage
+
+  // Get all recipes and shuffle them
+  const allRecipes = Object.values(data);
+  const shuffled = allRecipes.sort(() => Math.random() - 0.5);
+  const randomRecipes = shuffled.slice(0, 6);
+
+  // Display the random recipes
+  container.innerHTML = randomRecipes.map(recipe => `
+    <a href="${recipe.url}" class="block border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow group">
+      ${recipe.image ? `
+        <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-48 object-cover">
+      ` : `
+        <div class="w-full h-48 bg-secondary"></div>
+      `}
+      <div class="p-4">
+        <h3 class="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">${recipe.title}</h3>
+        ${recipe.description ? `
+          <p class="text-sm text-muted-foreground line-clamp-2">${recipe.description}</p>
+        ` : ''}
+      </div>
+    </a>
+  `).join('');
+}
+
+// Preload recipe data and display inspiration recipes on page load
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', loadRecipeData);
+  document.addEventListener('DOMContentLoaded', () => {
+    loadRecipeData();
+    displayInspirationRecipes();
+  });
 } else {
   loadRecipeData();
+  displayInspirationRecipes();
 }
