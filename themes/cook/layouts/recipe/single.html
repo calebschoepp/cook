@@ -2,17 +2,11 @@
 <article class="max-w-4xl mx-auto px-4 sm:px-6">
   <!-- Recipe Header -->
   <div class="mb-8">
-    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">{{ .Title }}</h1>
-
-    {{ with .Params.description }}
-    <p class="text-lg sm:text-xl text-muted-foreground mb-6 leading-relaxed">{{ . }}</p>
-    {{ end }}
-
     {{ with .Params.image }}
     <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-64 sm:h-80 md:h-96 object-cover rounded-lg shadow-lg mb-6">
     {{ end }}
 
-    <!-- Recipe Meta -->
+    <!-- Recipe Meta Card -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 p-4 sm:p-6 bg-secondary rounded-lg">
       {{ with .Params.servings }}
       <div>
