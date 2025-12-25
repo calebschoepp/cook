@@ -1,0 +1,72 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 sm:px-6">
+  <!-- Recipe Header -->
+  <div class="mb-8">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">{{ .Title }}</h1>
+
+    {{ with .Params.description }}
+    <p class="text-lg sm:text-xl text-muted-foreground mb-6 leading-relaxed">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.image }}
+    <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-64 sm:h-80 md:h-96 object-cover rounded-lg shadow-lg mb-6">
+    {{ end }}
+
+    <!-- Recipe Meta -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 p-4 sm:p-6 bg-secondary rounded-lg">
+      {{ with .Params.servings }}
+      <div>
+        <div class="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Servings</div>
+        <div class="text-base sm:text-lg font-semibold mt-1">{{ . }}</div>
+      </div>
+      {{ end }}
+
+      {{ with index .Params "prep time" }}
+      <div>
+        <div class="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Prep Time</div>
+        <div class="text-base sm:text-lg font-semibold mt-1">{{ . }}</div>
+      </div>
+      {{ end }}
+
+      {{ with index .Params "cook time" }}
+      <div>
+        <div class="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Cook Time</div>
+        <div class="text-base sm:text-lg font-semibold mt-1">{{ . }}</div>
+      </div>
+      {{ end }}
+
+      {{ with index .Params "time required" }}
+      <div>
+        <div class="text-xs sm:text-sm font-medium text-muted-foreground uppercase tracking-wide">Total Time</div>
+        <div class="text-base sm:text-lg font-semibold mt-1">{{ . }}</div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Course Tags -->
+    {{ with .GetTerms "courses" }}
+    <div class="mt-4 flex flex-wrap gap-2">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+        {{ .LinkTitle }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Recipe Content (ingredients, steps, etc.) -->
+  <div class="prose prose-lg max-w-none mt-8">
+    {{ .Content }}
+  </div>
+
+  <!-- Source Link -->
+  {{ with .Params.source }}
+  <div class="mt-8 pt-6 border-t border-border">
+    <p class="text-sm text-muted-foreground">
+      Recipe source: <a href="{{ . }}" target="_blank" rel="noopener" class="text-primary hover:underline break-all">{{ . }}</a>
+    </p>
+  </div>
+  {{ end }}
+</article>
+{{ end }}

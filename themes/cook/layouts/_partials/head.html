@@ -3,8 +3,8 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-<!-- Tailwind CSS Play CDN -->
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind CSS Play CDN with Typography Plugin -->
+<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 <script>
   tailwind.config = {
     theme: {
