@@ -110,12 +110,34 @@ async function displayInspirationRecipes() {
 }
 
 // Preload recipe data and display inspiration recipes on page load
+// Mobile menu toggle
+function initMobileMenu() {
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (menuButton && mobileMenu) {
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close menu when clicking a link
+    const menuLinks = mobileMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  }
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     loadRecipeData();
     displayInspirationRecipes();
+    initMobileMenu();
   });
 } else {
   loadRecipeData();
   displayInspirationRecipes();
+  initMobileMenu();
 }

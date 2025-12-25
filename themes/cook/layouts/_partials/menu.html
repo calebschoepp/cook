@@ -9,37 +9,68 @@ Renders a menu for the given menu ID.
 
 {{- $page := .page }}
 {{- $menuID := .menuID }}
+{{- $mobile := .mobile }}
 
 {{- with index site.Menus $menuID }}
   <nav>
-    <ul class="flex gap-6">
-      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    {{- if $mobile }}
+    <ul class="flex flex-col gap-2">
+      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" true) }}
     </ul>
+    {{- else }}
+    <ul class="flex flex-wrap gap-2 sm:gap-4 md:gap-6 justify-end">
+      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" false) }}
+    </ul>
+    {{- end }}
   </nav>
 {{- end }}
 
 {{- define "_partials/inline/menu/walk.html" }}
   {{- $page := .page }}
+  {{- $mobile := .mobile }}
   {{- range .menuEntries }}
-    {{- $classes := "text-foreground hover:text-primary transition-colors font-medium" }}
-    {{- if $page.IsMenuCurrent .Menu . }}
-      {{- $classes = "text-primary font-semibold" }}
-    {{- else if $page.HasMenuCurrent .Menu .}}
-      {{- $classes = "text-primary font-medium" }}
-    {{- end }}
-    {{- $name := .Name }}
-    {{- with .Identifier }}
-      {{- with T . }}
-        {{- $name = . }}
+    {{- if $mobile }}
+      {{- $classes := "block w-full px-4 py-3 rounded-md text-base font-medium transition-all hover:bg-primary/10 text-left" }}
+      {{- if $page.IsMenuCurrent .Menu . }}
+        {{- $classes = "block w-full px-4 py-3 rounded-md text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 text-left" }}
+      {{- else if $page.HasMenuCurrent .Menu .}}
+        {{- $classes = "block w-full px-4 py-3 rounded-md text-base font-medium bg-primary/10 text-primary hover:bg-primary/20 text-left" }}
       {{- end }}
-    {{- end }}
-    <li>
-      <a href="{{ .URL }}" class="{{ $classes }}">{{ $name }}</a>
-      {{- with .Children }}
-        <ul class="flex gap-4 ml-4">
-          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-        </ul>
+      {{- $name := .Name }}
+      {{- with .Identifier }}
+        {{- with T . }}
+          {{- $name = . }}
+        {{- end }}
       {{- end }}
-    </li>
+      <li>
+        <a href="{{ .URL }}" class="{{ $classes }}">{{ $name }}</a>
+        {{- with .Children }}
+          <ul class="flex flex-col gap-2 ml-4 mt-2">
+            {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" true) }}
+          </ul>
+        {{- end }}
+      </li>
+    {{- else }}
+      {{- $classes := "px-3 py-2 rounded-md text-sm sm:text-base font-medium transition-all hover:bg-primary/10" }}
+      {{- if $page.IsMenuCurrent .Menu . }}
+        {{- $classes = "px-3 py-2 rounded-md text-sm sm:text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90" }}
+      {{- else if $page.HasMenuCurrent .Menu .}}
+        {{- $classes = "px-3 py-2 rounded-md text-sm sm:text-base font-medium bg-primary/10 text-primary hover:bg-primary/20" }}
+      {{- end }}
+      {{- $name := .Name }}
+      {{- with .Identifier }}
+        {{- with T . }}
+          {{- $name = . }}
+        {{- end }}
+      {{- end }}
+      <li>
+        <a href="{{ .URL }}" class="{{ $classes }}">{{ $name }}</a>
+        {{- with .Children }}
+          <ul class="flex gap-2 ml-2">
+            {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "mobile" false) }}
+          </ul>
+        {{- end }}
+      </li>
+    {{- end }}
   {{- end }}
 {{- end }}

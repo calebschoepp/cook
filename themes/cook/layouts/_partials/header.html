@@ -1,7 +1,23 @@
-<div class="flex items-center justify-between">
-  <a href="/" class="flex items-center gap-3 text-2xl font-bold text-foreground hover:text-primary transition-colors">
-    <img src="/logo.png" alt="Logo" class="h-16 w-16 object-contain">
-    {{ site.Title }}
+<div class="flex items-center justify-between gap-4">
+  <a href="/" class="flex items-center gap-2 sm:gap-3 text-lg sm:text-2xl font-bold text-foreground hover:text-primary transition-colors">
+    <img src="/logo.png" alt="Logo" class="h-12 w-12 sm:h-16 sm:w-16 object-contain flex-shrink-0">
+    <span>{{ site.Title }}</span>
   </a>
-  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+  <!-- Mobile menu button -->
+  <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-secondary transition-colors" aria-label="Toggle menu">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+
+  <!-- Desktop menu -->
+  <div class="hidden md:block">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+</div>
+
+<!-- Mobile menu -->
+<div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-border pt-4">
+  {{ partial "menu.html" (dict "menuID" "main" "page" . "mobile" true) }}
 </div>
