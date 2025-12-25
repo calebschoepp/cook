@@ -16,7 +16,7 @@ sync-recipes:
             just _add-hugo-fields "content/recipes/${base_name}.md"
         fi
     done
-    echo " Recipes synced successfully"
+    echo "Recipes synced successfully"
 
 # Internal: Add Hugo-specific front matter fields to a recipe markdown file
 _add-hugo-fields file:
@@ -51,8 +51,8 @@ dev:
     hugo server -D --disableFastRender
 
 # Build the Hugo site
-build:
-    hugo --gc --minify
+build *ARGS:
+    hugo --gc --minify {{ARGS}}
 
 # Clean generated files
 clean:
@@ -72,4 +72,4 @@ verify-sync:
         echo "Run 'just sync-recipes' locally and commit the changes"
         exit 1
     fi
-    echo " All recipes are in sync!"
+    echo "All recipes are in sync!"
