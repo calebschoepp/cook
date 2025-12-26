@@ -60,16 +60,7 @@ clean:
 
 # Lint all recipe files
 lint:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    output=$(cook doctor validate recipes/*.cook 2>&1)
-    echo "$output"
-    if ! echo "$output" | grep -q "All recipes are valid"; then
-        echo ""
-        echo "ERROR: Linting failed - recipes are not valid"
-        exit 1
-    fi
-    echo "All recipes passed linting!"
+    cook doctor validate --base-path recipes --strict
 
 # Verify recipes are in sync (for CI)
 verify-sync:
