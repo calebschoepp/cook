@@ -58,7 +58,11 @@
   {{ with .Params.source }}
   <div class="mt-8 pt-6 border-t border-border">
     <p class="text-sm text-muted-foreground">
+      {{ if hasPrefix . "http" }}
       Recipe source: <a href="{{ . }}" target="_blank" rel="noopener" class="text-primary hover:underline break-all">{{ . }}</a>
+      {{ else }}
+      Recipe source: {{ . }}
+      {{ end }}
     </p>
   </div>
   {{ end }}
