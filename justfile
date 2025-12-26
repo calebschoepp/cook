@@ -48,6 +48,7 @@ _add-hugo-fields file:
 
 # Start Hugo development server
 dev:
+    just sync-recipes
     hugo server -D --disableFastRender
 
 # Build the Hugo site

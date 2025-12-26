@@ -2,6 +2,7 @@
 title: Boeter Koek
 description: Ryan's family recipe for Boeter Koek.
 courses: Baked Good
+image: https://www.allrecipes.com/thmb/hIBVbyFDbRjORj6Ji3k1MMyNnyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5386389-6802fdb344d043248aec014031bea447.jpg
 prep time: 10 minutes
 cook time: 10 minutes
 time required: 20 minutes
