@@ -1,5 +1,3 @@
-# Recipes to track
-
 - Breakfast for dinner
 - Chicken curry
 - Fancy mushroom thing
@@ -20,16 +18,13 @@
 - Corn and Lentil Fritters
 - Chili
 - Sheet Pan Cashew Chicken
-- One pan chorizo hash
 - Hello fresh paneer rename this
 - Turkey à la King
-- Mexican Street Corn Soup
 - White Chicken Chili
 - BLT Salad
-- Jambalaya
 - Mac & Cheese
 - Cornbread
-- One pot chicken/silantro/lime rice
+- One pot chicken/cilantro/lime rice
 - Fajita Bowls
   ------- Obsidian below -------
 - Tuscany chicken

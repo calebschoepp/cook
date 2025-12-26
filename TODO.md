@@ -1,5 +1,3 @@
 - Puppeteer tests
 - JS search tests and random shuffle
-- Linting to only allow valid courses
 - Add all recipes
-- Search bar
