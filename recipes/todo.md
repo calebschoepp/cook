@@ -1,5 +1,6 @@
 # Recipes to track
 
+- Breakfast for dinner
 - Chicken curry
 - Fancy mushroom thing
 - Chicken poppy seed salad
@@ -117,3 +118,10 @@
 - Fajita bowls
 - Taco bowls
 - Taco salad
+
+## Course ideas
+
+- Soup
+- Salad
+- Lunch?
+- Breakfast?
