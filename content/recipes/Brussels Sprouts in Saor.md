@@ -5,7 +5,7 @@ servings: 6
 prep time: 15 minutes
 cook time: 30 minutes
 time required: 45 minutes
-courses: Main
+courses: Side
 source: https://cooking.nytimes.com/recipes/1022711-brussels-sprouts-in-saor
 image: https://static01.nyt.com/images/2021/11/17/dining/15Unboring2/merlin_197274678_7a1badeb-73e6-43b4-b75a-60a0ac47c188-threeByTwoMediumAt2X.jpg?quality=75&auto=webp
 name: Brussels Sprouts in Saor
