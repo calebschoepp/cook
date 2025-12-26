@@ -1,3 +1,2 @@
-- Puppeteer tests
-- JS search tests and random shuffle
 - Add all recipes
+- Add timers automatically
