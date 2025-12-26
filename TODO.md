@@ -1,2 +1,3 @@
 - Add all recipes
 - Add timers automatically
+- Self evident 😜
