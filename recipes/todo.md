@@ -1,55 +1,55 @@
-- [ ] Breakfast for dinner (Family Recipe) #main
-- [ ] Easy Chicken curry (https://www.youtube.com/watch?v=MmU1sXsnp3s) #main
-- [ ] Chicken poppy seed salad (Family Recipe) #salad
-- [ ] Banana Muffins (Family Recipe) #baked-good
-- [ ] Ginger Snappers (Family Recipe) #baked-good
-- [ ] Brown Sugar Muffins (Family Recipe) #baked-good
-- [ ] Peanut Butter Blossoms (Family Recipe) #baked-good
-- [ ] Caramel Corn (Family Recipe) #baked-good
-- [ ] Banana Bread (Family Recipe) #baked-good
-- [ ] Mom's Chocolate Chip Cookies (Family Recipe) #baked-good
-- [ ] Rice Krispies (Family Recipe) #baked-good
-- [ ] Rhubarb Mandarin Crisp (Family Recipe) #baked-good
-- [ ] Poppyseed Chiffon Cake (Family Recipe) #baked-good
-- [ ] Banana Chocolate Chip Bars (Family Recipe) #baked-good
-- [ ] Corn and Lentil Fritters (New Zealand Friends) #side #appetizer
-- [ ] Chili (Family Recipe) #soup
-- [ ] Sheet Pan Cashew Chicken (https://therecipecritic.com/sheet-pan-cashew-chicken/) #main
-- [ ] Paneer and Chickpea Curry (https://www.hellofresh.ca/recipes/smart-paneer-and-chickpea-curry-64db8fe82ad1f1e5380fc770) #main
-- [ ] Turkey à la King (Family Recipe) #main
-- [ ] BLT Salad (https://www.howsweeteats.com/2017/03/blt-shredded-kale-salad-greek-yogurt-ranch/) #salad
-- [ ] Mac & Cheese (https://sweetandsavorymeals.com/gluten-free-mac-and-cheese/) #side
-- [ ] Cornbread (https://www.glutenfreepalate.com/gluten-free-cornbread/) #side
-- [ ] One pot chicken/cilantro/lime rice (https://kitchenswagger.com/One-Pot-Chicken-Cilantro-Lime-Rice-Recipe/) #main
-- [ ] Fajita Bowls (🧠) #main
-- [ ] Tuscany chicken (https://downshiftology.com/recipes/creamy-tuscan-chicken/) #main
-- [ ] Taco salad (🧠) #salad
-- [ ] Quiche (https://www.youtube.com/watch?v=8vKcUj_kiYI) #main
-- [ ] Crockpot chicken tinga (https://www.youtube.com/watch?v=DqTsb9N3cqY) #main
-- [ ] Shan butter chicken (🧠) #main
-- [ ] Burgers (🧠) #main
-- [ ] Breaded Salmon Steaks (🧠) #main
-- [ ] Scalloped potatoes and ham (https://www.mamaknowsglutenfree.com/gluten-free-scalloped-potatoes/#wprm-recipe-container-11480) #main
-- [ ] Caesar salad (🧠) #salad
-- [ ] Tomato soup and grilled cheese (🧠) #soup
-- [ ] Americanized Tacos (🧠) #main
-- [ ] Sausage and pierogies (🧠) #main
-- [ ] Oven baked chicken thighs with pan sauce (🧠) #main
-- [ ] Pre-roasted chicken (🧠) #main
-- [ ] Shepherds pie (🧠) #main
-- [ ] Warm potato salad (https://www.leppfarmmarket.com/earls-warm-potato-salad/) #salad
-- [ ] Beef stroganoff (🧠) #main
-- [ ] Creamy pancetta pasta del maresciallo (https://www.the-pasta-project.com/creamy-pancetta-pasta-del-maresciallo/) #main
-- [ ] Fried rice (🧠) #main
-- [ ] Shipwreck (Family Recipe) #main
-- [ ] Cilantro peanut noodles (https://www.youtube.com/watch?v=7Yo54RiBUx0&ab_channel=ProHomeCooks) #main
-- [ ] Tofu & Broccoli on rice (https://www.youtube.com/watch?v=7Yo54RiBUx0&ab_channel=ProHomeCooks) #main
-- [ ] Thai Basil Chicken and Garlic Butter Noodles (https://www.halfbakedharvest.com/basil-chicken-and-garlic-noodles/#wprm-recipe-container-163565) #main
-- [ ] One Skillet Greek Lemon Chicken and Rice (https://www.halfbakedharvest.com/lemon-chicken-and-rice/) #main
-- [ ] Big mac salad (🧠) #salad
-- [ ] Sweet potato and kale salad (https://www.instagram.com/p/C5zNd8wRLQo/) (🧠) #salad
-- [ ] Extra crispy parmesan crusted roasted potatoes (https://cooking.nytimes.com/recipes/1020633-extra-crispy-parmesan-crusted-roasted-potatoes?smid=yt-nytfood&smtyp=cur) #side
-- [ ] Potato salad (🧠) #salad
-- [ ] Spinach salad with berries and goat cheese (🧠) #salad
-- [ ] Orange date muffins (https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCncsrKVcQbzzpmNRszZss) #baked-good
-- [ ] Taco bowls (🧠) #main
+- [x] Breakfast for dinner (Family Recipe) #main
+- [x] Easy Chicken curry (https://www.youtube.com/watch?v=MmU1sXsnp3s) #main
+- [x] Chicken poppy seed salad (Family Recipe) #salad
+- [x] Banana Muffins (Family Recipe) #baked-good
+- [x] Ginger Snappers (Family Recipe) #baked-good
+- [x] Brown Sugar Muffins (Family Recipe) #baked-good
+- [x] Peanut Butter Blossoms (Family Recipe) #baked-good
+- [x] Caramel Corn (Family Recipe) #baked-good
+- [x] Banana Bread (Family Recipe) #baked-good
+- [x] Mom's Chocolate Chip Cookies (Family Recipe) #baked-good
+- [x] Rice Krispies (Family Recipe) #baked-good
+- [x] Rhubarb Mandarin Crisp (Family Recipe) #baked-good
+- [x] Poppyseed Chiffon Cake (Family Recipe) #baked-good
+- [x] Banana Chocolate Chip Bars (Family Recipe) #baked-good
+- [x] Corn and Lentil Fritters (New Zealand Friends) #side #appetizer
+- [x] Chili (Family Recipe) #soup
+- [x] Sheet Pan Cashew Chicken (https://therecipecritic.com/sheet-pan-cashew-chicken/) #main
+- [x] Paneer and Chickpea Curry (https://www.hellofresh.ca/recipes/smart-paneer-and-chickpea-curry-64db8fe82ad1f1e5380fc770) #main
+- [x] Turkey à la King (Family Recipe) #main
+- [x] BLT Salad (https://www.howsweeteats.com/2017/03/blt-shredded-kale-salad-greek-yogurt-ranch/) #salad
+- [x] Mac & Cheese (https://sweetandsavorymeals.com/gluten-free-mac-and-cheese/) #side
+- [x] Cornbread (https://www.glutenfreepalate.com/gluten-free-cornbread/) #side
+- [x] One pot chicken/cilantro/lime rice (https://kitchenswagger.com/One-Pot-Chicken-Cilantro-Lime-Rice-Recipe/) #main
+- [x] Fajita Bowls (🧠) #main
+- [x] Tuscany chicken (https://downshiftology.com/recipes/creamy-tuscan-chicken/) #main
+- [x] Taco salad (🧠) #salad
+- [x] Quiche (https://www.youtube.com/watch?v=8vKcUj_kiYI) #main
+- [x] Crockpot chicken tinga (https://www.youtube.com/watch?v=DqTsb9N3cqY) #main
+- [x] Shan butter chicken (🧠) #main
+- [x] Burgers (🧠) #main
+- [x] Breaded Salmon Steaks (🧠) #main
+- [x] Scalloped potatoes and ham (https://www.mamaknowsglutenfree.com/gluten-free-scalloped-potatoes/#wprm-recipe-container-11480) #main
+- [x] Caesar salad (🧠) #salad
+- [x] Tomato soup and grilled cheese (🧠) #soup
+- [x] Americanized Tacos (🧠) #main
+- [x] Sausage and pierogies (🧠) #main
+- [x] Oven baked chicken thighs with pan sauce (🧠) #main
+- [x] Pre-roasted chicken (🧠) #main
+- [x] Shepherds pie (🧠) #main
+- [x] Warm potato salad (https://www.leppfarmmarket.com/earls-warm-potato-salad/) #salad
+- [x] Beef stroganoff (🧠) #main
+- [x] Creamy pancetta pasta del maresciallo (https://www.the-pasta-project.com/creamy-pancetta-pasta-del-maresciallo/) #main
+- [x] Fried rice (🧠) #main
+- [x] Shipwreck (Family Recipe) #main
+- [x] Cilantro peanut noodles (https://www.youtube.com/watch?v=7Yo54RiBUx0&ab_channel=ProHomeCooks) #main
+- [x] Tofu & Broccoli on rice (https://www.youtube.com/watch?v=7Yo54RiBUx0&ab_channel=ProHomeCooks) #main
+- [x] Thai Basil Chicken and Garlic Butter Noodles (https://www.halfbakedharvest.com/basil-chicken-and-garlic-noodles/#wprm-recipe-container-163565) #main
+- [x] One Skillet Greek Lemon Chicken and Rice (https://www.halfbakedharvest.com/lemon-chicken-and-rice/) #main
+- [x] Big mac salad (🧠) #salad
+- [x] Sweet potato and kale salad (https://www.instagram.com/p/C5zNd8wRLQo/) (🧠) #salad
+- [x] Extra crispy parmesan crusted roasted potatoes (https://cooking.nytimes.com/recipes/1020633-extra-crispy-parmesan-crusted-roasted-potatoes?smid=yt-nytfood&smtyp=cur) #side
+- [x] Potato salad (🧠) #salad
+- [x] Spinach salad with berries and goat cheese (🧠) #salad
+- [x] Orange date muffins (https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCncsrKVcQbzzpmNRszZss) #baked-good
+- [x] Taco bowls (🧠) #main
