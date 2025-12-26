@@ -65,6 +65,10 @@ lint:
     just _validate-recipe-metadata
     just _validate-course-values
 
+# Run end-to-end tests with Playwright
+test:
+    npx playwright test
+
 # Internal: Validate that all recipes have required metadata
 _validate-recipe-metadata:
     #!/usr/bin/env bash

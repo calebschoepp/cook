@@ -26,8 +26,35 @@ jobs:
       - name: Install Just
         uses: extractions/setup-just@v2
 
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
       - name: Lint recipes
         run: just lint
 
       - name: Verify recipes are in sync
         run: just verify-sync
+
+      - name: Run end-to-end tests
+        run: just test
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30

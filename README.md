@@ -23,6 +23,9 @@ just dev
 # Lint recipe files
 just lint
 
+# Run end-to-end tests
+just test
+
 # Build the site
 just build
 ```
