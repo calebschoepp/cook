@@ -10,6 +10,7 @@
     "description" .Params.description
     "image" .Params.image
     "courses" $courses
+    "content" .Plain
   -}}
   {{- $recipes = merge $recipes (dict .Title $recipe) -}}
 {{- end -}}
