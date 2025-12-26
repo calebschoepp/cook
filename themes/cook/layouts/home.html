@@ -47,7 +47,31 @@
 
   <!-- Some Inspiration -->
   <div>
-    <h2 class="text-3xl font-bold mb-6">Some Inspiration</h2>
+    <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-6">
+      <h2 class="text-3xl font-bold">Some Inspiration</h2>
+      <div class="flex flex-wrap items-center gap-2">
+        <div id="course-toggles" class="inline-flex rounded-lg border border-border overflow-hidden">
+          {{ range site.Taxonomies.courses }}
+          <button
+            type="button"
+            class="course-toggle px-3 py-2 text-sm font-medium border-r border-border last:border-r-0 transition-colors hover:bg-primary/10"
+            data-course="{{ .Page.Title }}"
+            data-active="false"
+          >
+            {{ .Page.Title }}
+          </button>
+          {{ end }}
+        </div>
+        <button
+          id="shuffle-btn"
+          type="button"
+          class="px-2 py-2 border border-border rounded-lg hover:bg-primary/10 transition-colors flex items-center justify-center"
+          title="Shuffle recipes"
+        >
+          <img src="/dice.png" alt="Shuffle" class="w-5 h-5">
+        </button>
+      </div>
+    </div>
     <div id="inspiration-recipes" class="grid md:grid-cols-3 gap-6">
       {{ range (where site.RegularPages "Type" "recipe") }}
         {{ partial "recipe-card.html" . }}

@@ -161,20 +161,94 @@ function displayInspirationRecipes() {
   // Get all recipe cards
   const cards = Array.from(container.children);
 
-  // Shuffle the cards
-  const shuffled = cards.sort(() => Math.random() - 0.5);
+  // Get active courses
+  const activeCourses = getActiveCourses();
 
-  // Show only the first 6, hide the rest
+  // Filter cards by active courses
+  const filteredCards = cards.filter(card => {
+    if (activeCourses.length === 0) return true; // Show all if no courses selected
+
+    // Get course badges from the card
+    const courseBadges = card.querySelectorAll('.px-2.py-1.bg-primary\\/10');
+    const cardCourses = Array.from(courseBadges).map(badge => badge.textContent.trim());
+
+    // Check if card has any of the active courses
+    return cardCourses.some(course => activeCourses.includes(course));
+  });
+
+  // Shuffle the filtered cards
+  const shuffled = filteredCards.sort(() => Math.random() - 0.5);
+
+  // Hide all cards first
+  cards.forEach(card => card.style.display = 'none');
+
+  // Show only the first 6 shuffled filtered cards
   shuffled.forEach((card, index) => {
     if (index < 6) {
       card.style.display = '';
-    } else {
-      card.style.display = 'none';
     }
   });
 
   // Re-append in shuffled order
   shuffled.forEach(card => container.appendChild(card));
+}
+
+// Get active courses from toggle buttons
+function getActiveCourses() {
+  const toggles = document.querySelectorAll('.course-toggle');
+  const activeCourses = [];
+
+  toggles.forEach(toggle => {
+    if (toggle.dataset.active === 'true') {
+      activeCourses.push(toggle.dataset.course);
+    }
+  });
+
+  return activeCourses;
+}
+
+// Initialize course toggle buttons
+function initCourseToggles() {
+  const toggles = document.querySelectorAll('.course-toggle');
+  const shuffleBtn = document.getElementById('shuffle-btn');
+
+  if (toggles.length === 0) return; // Not on homepage
+
+  // Add click handlers to toggle buttons
+  toggles.forEach(toggle => {
+    // Set initial active state styling
+    updateToggleStyle(toggle);
+
+    toggle.addEventListener('click', () => {
+      // Toggle active state
+      const isActive = toggle.dataset.active === 'true';
+      toggle.dataset.active = (!isActive).toString();
+      updateToggleStyle(toggle);
+
+      // Don't shuffle, just update styling
+      // User must click shuffle button to re-roll
+    });
+  });
+
+  // Add click handler to shuffle button
+  if (shuffleBtn) {
+    shuffleBtn.addEventListener('click', () => {
+      displayInspirationRecipes();
+    });
+  }
+}
+
+// Update toggle button styling based on active state
+function updateToggleStyle(toggle) {
+  const isActive = toggle.dataset.active === 'true';
+
+  if (isActive) {
+    toggle.classList.add('bg-primary/10', 'text-primary');
+    toggle.classList.remove('bg-background', 'text-foreground');
+  } else {
+    toggle.classList.remove('bg-primary/10', 'text-primary');
+    toggle.classList.add('bg-background', 'text-foreground');
+  }
 }
 
 // Mobile menu toggle
@@ -200,12 +274,14 @@ function initMobileMenu() {
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     loadRecipeData();
+    initCourseToggles();
     displayInspirationRecipes();
     performSearch();
     initMobileMenu();
   });
 } else {
   loadRecipeData();
+  initCourseToggles();
   displayInspirationRecipes();
   performSearch();
   initMobileMenu();
