@@ -54,7 +54,7 @@ thighs. Marinate for 30 minutes at room temperature or 6-12 hours in fridge.
 
 > **Note:** Tip: if marinating overnight, leave out lime juice and increase zest so it doesn't 'cook' the chicken. The reserved marinade will be used for glazing/basting.
 
-> **Note:** Optional but suggested: Mix @cornstarch{1/2%tsp} into reserved marinade and microwave for 1 minute to make a glaze-like consistency.
+> **Note:** Optional but suggested: Mix cornstarch into reserved marinade and microwave for 1 minute to make a glaze-like consistency.
 
 3. Grill chicken on BBQ. Baste the chicken throughout with the leftover
 marinade.
