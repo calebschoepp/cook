@@ -1,7 +1,7 @@
 ---
 title: Ginger Snappers
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Ginger Snappers
 type: recipe

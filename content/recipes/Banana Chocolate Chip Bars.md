@@ -1,7 +1,7 @@
 ---
 title: Banana Chocolate Chip Bars
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Banana Chocolate Chip Bars
 type: recipe

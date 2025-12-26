@@ -1,7 +1,7 @@
 ---
 title: Banana Bread
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Banana Bread
 type: recipe

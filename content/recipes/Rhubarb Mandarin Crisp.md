@@ -1,7 +1,7 @@
 ---
 title: Rhubarb Mandarin Crisp
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Rhubarb Mandarin Crisp
 type: recipe

@@ -1,7 +1,7 @@
 ---
 title: Poppyseed Chiffon Cake
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Poppyseed Chiffon Cake
 type: recipe

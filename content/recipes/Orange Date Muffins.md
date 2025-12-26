@@ -1,7 +1,7 @@
 ---
 title: Orange Date Muffins
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCncsrKVcQbzzpmNRszZss
 name: Orange Date Muffins
 type: recipe

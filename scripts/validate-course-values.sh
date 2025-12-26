@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 # Valid course values (case-insensitive)
-valid_courses=("main" "appetizer" "side" "soup" "salad" "dessert" "baked good")
+valid_courses=("main" "appetizer" "side" "soup" "salad" "dessert")
 errors=0
 
 for cook_file in recipes/*.cook; do
@@ -48,7 +48,7 @@ for cook_file in recipes/*.cook; do
 
                 if [ $is_valid -eq 0 ]; then
                     echo "ERROR: $cook_file has invalid course value '$course'"
-                    echo "       Valid values are: main, appetizer, side, soup, salad, dessert, baked good"
+                    echo "       Valid values are: main, appetizer, side, soup, salad, dessert"
                     ((errors++))
                 fi
             fi

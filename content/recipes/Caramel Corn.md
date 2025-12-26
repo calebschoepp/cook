@@ -1,7 +1,7 @@
 ---
 title: Caramel Corn
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Caramel Corn
 type: recipe

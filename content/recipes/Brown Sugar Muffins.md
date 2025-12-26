@@ -1,7 +1,7 @@
 ---
 title: Brown Sugar Muffins
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Brown Sugar Muffins
 type: recipe

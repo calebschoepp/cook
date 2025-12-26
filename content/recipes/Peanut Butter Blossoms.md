@@ -1,7 +1,7 @@
 ---
 title: Peanut Butter Blossoms
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Peanut Butter Blossoms
 type: recipe

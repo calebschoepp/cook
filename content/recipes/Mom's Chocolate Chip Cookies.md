@@ -1,7 +1,7 @@
 ---
 title: Mom's Chocolate Chip Cookies
 description: TODO
-courses: Baked Good
+courses: Dessert
 source: Family Recipe
 name: Mom's Chocolate Chip Cookies
 type: recipe
