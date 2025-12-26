@@ -11,17 +11,17 @@
   </div>
   {{ end }}
   <div class="p-4">
-    <h3 class="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">{{ .Title }}</h3>
-    {{ with .Params.description }}
-    <p class="text-sm text-muted-foreground line-clamp-3 mb-3">{{ . }}</p>
-    {{ end }}
-
-    {{ with .GetTerms "courses" }}
-    <div class="flex flex-wrap gap-2 text-xs">
-      {{ range . }}
-      <span class="px-2 py-1 bg-primary/10 text-primary rounded-full">{{ .LinkTitle }}</span>
+    <div class="flex flex-wrap items-center gap-2 mb-2">
+      <h3 class="font-semibold text-lg group-hover:text-primary transition-colors">{{ .Title }}</h3>
+      {{ with .GetTerms "courses" }}
+        {{ range . }}
+        <span class="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs">{{ .LinkTitle }}</span>
+        {{ end }}
       {{ end }}
     </div>
+
+    {{ with .Params.description }}
+    <p class="text-sm text-muted-foreground line-clamp-3">{{ . }}</p>
     {{ end }}
   </div>
 </a>

@@ -73,43 +73,30 @@ window.pickRandomRecipe = async function() {
   `;
 };
 
-// Display random inspiration recipes
-async function displayInspirationRecipes() {
-  const data = await loadRecipeData();
-  if (!data) {
-    console.error('Failed to load recipe data for inspiration');
-    return;
-  }
-
+// Shuffle and display random inspiration recipes
+function displayInspirationRecipes() {
   const container = document.getElementById('inspiration-recipes');
   if (!container) return; // Not on homepage
 
-  // Get all recipes and shuffle them
-  const allRecipes = Object.values(data);
-  const shuffled = allRecipes.sort(() => Math.random() - 0.5);
-  const randomRecipes = shuffled.slice(0, 6);
+  // Get all recipe cards
+  const cards = Array.from(container.children);
 
-  // Display the random recipes
-  container.innerHTML = randomRecipes.map(recipe => `
-    <a href="${recipe.url}" class="block border border-border rounded-lg overflow-hidden hover:shadow-lg transition-shadow group">
-      ${recipe.image ? `
-        <img src="${recipe.image}" alt="${recipe.title}" class="w-full h-48 object-cover">
-      ` : `
-        <div class="w-full h-48 bg-secondary flex items-center justify-center">
-          <span class="text-4xl">🍽️</span>
-        </div>
-      `}
-      <div class="p-4">
-        <h3 class="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">${recipe.title}</h3>
-        ${recipe.description ? `
-          <p class="text-sm text-muted-foreground line-clamp-2">${recipe.description}</p>
-        ` : ''}
-      </div>
-    </a>
-  `).join('');
+  // Shuffle the cards
+  const shuffled = cards.sort(() => Math.random() - 0.5);
+
+  // Show only the first 6, hide the rest
+  shuffled.forEach((card, index) => {
+    if (index < 6) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+
+  // Re-append in shuffled order
+  shuffled.forEach(card => container.appendChild(card));
 }
 
-// Preload recipe data and display inspiration recipes on page load
 // Mobile menu toggle
 function initMobileMenu() {
   const menuButton = document.getElementById('mobile-menu-button');
