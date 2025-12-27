@@ -71,7 +71,7 @@ comes clean, about 40 minutes.
 juice in a small saucepan.
 
 2. Simmer until the sugar dissolves and the liquid reduces to a syrupy
-consistency, about 2 minutes, stirring constantly.
+consistency, about 120 seconds, stirring constantly.
 
 3. Add the sea salt and simmer 1 minute, stirring frequently.
 
@@ -93,7 +93,7 @@ and cardamom.
 
 ### Timer: 40 minutes - ...d a toothpick inserted into the center comes clean, about
 
-### Timer: 2 minutes - ...ves and the liquid reduces to a syrupy consistency, about
+### Timer: 120 seconds - ...ves and the liquid reduces to a syrupy consistency, about
 
 ### Timer: 1 minute - Add the sea salt and simmer
 

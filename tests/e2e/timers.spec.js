@@ -148,7 +148,7 @@ test.describe('Recipe timer functionality', () => {
     await page.goto('/recipes/lasagna/');
     await page.waitForLoadState('networkidle');
 
-    // Get the first timer (15 minutes)
+    // Get the first timer (40 minutes)
     const firstTimer = page.locator('.recipe-timer').first();
     const timeDisplay = firstTimer.locator('[data-timer-display]');
     const startButton = firstTimer.locator('[data-timer-start]');
@@ -187,8 +187,8 @@ test.describe('Recipe timer functionality', () => {
     const [mins, secs] = currentTime.trim().split(':').map(s => parseInt(s));
     const totalSeconds = mins * 60 + secs;
 
-    // Should have counted down
-    expect(totalSeconds).toBeLessThan(15 * 60);
+    // Should have counted down from 40 minutes
+    expect(totalSeconds).toBeLessThan(40 * 60);
 
     // Now manually set to 0:01 and let it complete
     await page.evaluate(() => {
@@ -241,19 +241,19 @@ test.describe('Recipe timer functionality', () => {
   });
 
   test('should handle seconds unit', async ({ page }) => {
-    await page.goto('/recipes/lasagna/');
+    await page.goto('/recipes/orange-cardamom-olive-oil-cake/');
     await page.waitForLoadState('networkidle');
 
     const timers = page.locator('.recipe-timer');
     const count = await timers.count();
 
-    // Lasagna should have a 5 seconds timer
-    // It should display as 0:05
+    // Orange Cardamom Olive Oil Cake should have a 120 seconds timer
+    // It should display as 2:00
     let foundSecondsTimer = false;
     for (let i = 0; i < count; i++) {
       const timer = timers.nth(i);
       const display = await timer.locator('[data-timer-display]').textContent();
-      if (display.trim() === '0:05') {
+      if (display.trim() === '2:00') {
         foundSecondsTimer = true;
         break;
       }
@@ -284,19 +284,26 @@ test.describe('Recipe timer functionality', () => {
   });
 
   test('should handle hours unit', async ({ page }) => {
-    // For this test, we'd need a recipe with hours timer
-    // Since Lasagna doesn't have one, we'll create a test that verifies
-    // the parseTime function works correctly with hours by checking the data attribute
-    await page.goto('/recipes/lasagna/');
+    await page.goto('/recipes/crockpot-cheesy-potatoes/');
     await page.waitForLoadState('networkidle');
 
-    // Verify the parseTime logic works by checking that seconds timer has correct total
     const timers = page.locator('.recipe-timer');
-    const secondsTimer = timers.first();
+    const count = await timers.count();
 
-    // The 5 seconds timer should have data-total-seconds="5"
-    const totalSeconds = await secondsTimer.getAttribute('data-total-seconds');
-    expect(parseInt(totalSeconds)).toBe(5);
+    // Crockpot Cheesy Potatoes should have hour timers (6, 3, 2 hours)
+    // 6 hours should display as 360:00
+    let foundHoursTimer = false;
+    for (let i = 0; i < count; i++) {
+      const timer = timers.nth(i);
+      const display = await timer.locator('[data-timer-display]').textContent();
+      // Check for 6 hours (360 minutes) or 3 hours (180 minutes) or 2 hours (120 minutes)
+      if (display.trim() === '360:00' || display.trim() === '180:00' || display.trim() === '120:00') {
+        foundHoursTimer = true;
+        break;
+      }
+    }
+
+    expect(foundHoursTimer).toBe(true);
   });
 
   test('should display timer context labels', async ({ page }) => {
