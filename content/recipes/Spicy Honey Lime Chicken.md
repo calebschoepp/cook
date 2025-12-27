@@ -63,3 +63,12 @@ marinade.
 
 5. Serve with cilantro and lime wedges if desired.
 
+
+## Timers
+
+### Timer: 30 minutes - ...per bag or container and add chicken thighs. Marinate for
+
+### Timer: 6-12 hours - ...en thighs. Marinate for 30 minutes at room temperature or
+
+### Timer: 5 minutes - Rest chicken, loosely covered for
+

@@ -38,7 +38,7 @@ layout: single
 
 1. Preheat oven to 350°F.
 
-2. Brown ground beef. Drain excess fat.
+2. Brown ground beef. Drain excess fat. 5 seconds.
 
 3. Add diced tomatoes, spaghetti mix, and tomato sauce. Cover and simmer for 40
 minutes, stirring occasionally. Salt to taste.
@@ -52,4 +52,15 @@ sauce. Add half the mozzarella cheese.
 6. Bake in a oven for 25-30 minutes.
 
 7. Let stand for 15 minutes. Cut into squares and serve.
+
+
+## Timers
+
+### Timer: 5 seconds - Brown ground beef. Drain excess fat
+
+### Timer: 40 minutes - ...es, spaghetti mix, and tomato sauce. Cover and simmer for
+
+### Timer: 25-30 minutes - Bake in a oven for
+
+### Timer: 15 minutes - Let stand for
 

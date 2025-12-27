@@ -271,6 +271,279 @@ function initMobileMenu() {
   }
 }
 
+// Timer functionality for recipe pages
+class RecipeTimer {
+  constructor(element, duration, unit) {
+    this.element = element;
+    this.totalSeconds = this.parseTime(duration, unit);
+    this.remainingSeconds = this.totalSeconds;
+    this.isRunning = false;
+    this.intervalId = null;
+    this.beepIntervalId = null;
+    this.audioContext = null;
+
+    this.render();
+  }
+
+  parseTime(duration, unit) {
+    // Handle ranges like "25-30" by taking the first number
+    const match = String(duration).match(/^(\d+)/);
+    const value = match ? parseInt(match[1]) : 0;
+
+    // Convert to seconds based on unit
+    const unitLower = unit.toLowerCase();
+    if (unitLower.startsWith('second')) {
+      return value;
+    } else if (unitLower.startsWith('minute')) {
+      return value * 60;
+    } else if (unitLower.startsWith('hour')) {
+      return value * 3600;
+    }
+
+    // Default to minutes if unknown unit
+    return value * 60;
+  }
+
+  render() {
+    const minutes = Math.floor(this.remainingSeconds / 60);
+    const seconds = this.remainingSeconds % 60;
+    const timeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+    this.element.innerHTML = `
+      <div class="recipe-timer border border-border rounded-lg p-3 sm:p-4 bg-secondary/30" data-total-seconds="${this.totalSeconds}">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+          <div class="text-2xl sm:text-3xl font-mono font-bold ${this.remainingSeconds === 0 ? 'text-red-600' : 'text-foreground'}" data-timer-display>
+            ${timeDisplay}
+          </div>
+          <div class="flex flex-wrap gap-2 justify-center sm:justify-end">
+            <button
+              data-timer-start
+              class="px-3 sm:px-4 py-2 text-sm sm:text-base bg-primary text-primary-foreground rounded-md font-medium hover:bg-primary/90 transition-colors ${this.isRunning ? 'opacity-50 cursor-not-allowed' : ''}"
+              ${this.isRunning ? 'disabled' : ''}
+            >
+              Start
+            </button>
+            <button
+              data-timer-stop
+              class="px-3 sm:px-4 py-2 text-sm sm:text-base bg-secondary text-secondary-foreground border border-border rounded-md font-medium hover:bg-secondary/80 transition-colors ${!this.isRunning ? 'opacity-50 cursor-not-allowed' : ''}"
+              ${!this.isRunning ? 'disabled' : ''}
+            >
+              Stop
+            </button>
+            <button
+              data-timer-add-minute
+              class="px-3 sm:px-4 py-2 text-sm sm:text-base bg-secondary text-secondary-foreground border border-border rounded-md font-medium hover:bg-secondary/80 transition-colors"
+            >
+              +1 min
+            </button>
+            <button
+              data-timer-reset
+              class="px-3 sm:px-4 py-2 text-sm sm:text-base bg-secondary text-secondary-foreground border border-border rounded-md font-medium hover:bg-secondary/80 transition-colors"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    // Attach event listeners
+    this.element.querySelector('[data-timer-start]').addEventListener('click', () => this.start());
+    this.element.querySelector('[data-timer-stop]').addEventListener('click', () => this.stop());
+    this.element.querySelector('[data-timer-add-minute]').addEventListener('click', () => this.addMinute());
+    this.element.querySelector('[data-timer-reset]').addEventListener('click', () => this.reset());
+  }
+
+  start() {
+    if (this.isRunning) return;
+
+    this.isRunning = true;
+    activeTimers.add(this);
+
+    this.intervalId = setInterval(() => {
+      if (this.remainingSeconds > 0) {
+        this.remainingSeconds--;
+        this.updateDisplay();
+      } else {
+        this.complete();
+      }
+    }, 1000);
+
+    this.render();
+  }
+
+  stop() {
+    this.isRunning = false;
+    activeTimers.delete(this);
+
+    if (this.intervalId) {
+      clearInterval(this.intervalId);
+      this.intervalId = null;
+    }
+
+    // Stop continuous beeping if active (always clear, even if timer wasn't running)
+    if (this.beepIntervalId) {
+      clearInterval(this.beepIntervalId);
+      this.beepIntervalId = null;
+    }
+
+    this.render();
+  }
+
+  addMinute() {
+    const wasAtZero = this.remainingSeconds === 0;
+    this.remainingSeconds += 60;
+    this.updateDisplay();
+
+    // If timer was at zero and beeping, stop the beeping and auto-restart
+    if (wasAtZero) {
+      if (this.beepIntervalId) {
+        clearInterval(this.beepIntervalId);
+        this.beepIntervalId = null;
+      }
+      // Auto-restart the timer
+      this.start();
+    }
+  }
+
+  reset() {
+    this.stop();
+    this.remainingSeconds = this.totalSeconds;
+    this.render();
+  }
+
+  updateDisplay() {
+    const minutes = Math.floor(this.remainingSeconds / 60);
+    const seconds = this.remainingSeconds % 60;
+    const timeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+    const displayElement = this.element.querySelector('[data-timer-display]');
+    if (displayElement) {
+      displayElement.textContent = timeDisplay;
+      if (this.remainingSeconds === 0) {
+        displayElement.classList.add('text-red-600');
+        displayElement.classList.remove('text-foreground');
+      }
+    }
+  }
+
+  complete() {
+    this.stop();
+
+    // Start continuous beeping every 2 seconds until stopped
+    this.beep();
+    this.beepIntervalId = setInterval(() => {
+      this.beep();
+    }, 2000);
+
+    // Show notification if supported
+    if ('Notification' in window && Notification.permission === 'granted') {
+      new Notification('Timer Complete!', {
+        body: 'Your recipe timer has finished.',
+        icon: '/favicon.svg'
+      });
+    }
+  }
+
+  beep() {
+    try {
+      // Create a three-beep pattern (like a kitchen timer) for better attention
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const currentTime = audioContext.currentTime;
+
+      // Helper function to create a single beep
+      const createBeep = (startTime, frequency, duration) => {
+        const oscillator = audioContext.createOscillator();
+        const gainNode = audioContext.createGain();
+
+        oscillator.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+
+        oscillator.frequency.value = frequency;
+        oscillator.type = 'square';
+
+        // Envelope for each beep
+        gainNode.gain.setValueAtTime(0, startTime);
+        gainNode.gain.linearRampToValueAtTime(0.5, startTime + 0.01);
+        gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + duration);
+
+        oscillator.start(startTime);
+        oscillator.stop(startTime + duration);
+      };
+
+      // Three beeps: beep-beep-beep pattern (like ready-set-go)
+      createBeep(currentTime, 800, 0.15);        // First beep at 800 Hz
+      createBeep(currentTime + 0.2, 800, 0.15);  // Second beep
+      createBeep(currentTime + 0.4, 1000, 0.3);  // Third beep higher and longer
+
+    } catch (error) {
+      console.error('Failed to play beep:', error);
+    }
+  }
+}
+
+// Track all active timers globally
+const activeTimers = new Set();
+window.activeTimers = activeTimers;
+
+// Initialize recipe timers
+function initRecipeTimers() {
+  // Find all h3 elements with the timer format:
+  // "Timer: X minutes - context" or "Timer: X seconds - context" or "Timer: X hours - context"
+  const timerHeaders = document.querySelectorAll('h3');
+
+  timerHeaders.forEach(header => {
+    const text = header.textContent.trim();
+    // Match: "Timer: <duration> <unit> - <context>" or "Timer: <duration> <unit>"
+    const match = text.match(/^Timer:\s*([\d-]+)\s*(seconds?|minutes?|hours?)\s*(?:-\s*(.+))?$/i);
+
+    if (match) {
+      const duration = match[1];
+      const unit = match[2];
+      const context = match[3] || '';
+
+      // Create a wrapper container
+      const wrapper = document.createElement('div');
+      wrapper.className = 'timer-container my-4';
+
+      // Add context as a label if present
+      if (context) {
+        const label = document.createElement('div');
+        label.className = 'text-sm text-muted-foreground mb-2';
+        label.textContent = context;
+        wrapper.appendChild(label);
+      }
+
+      // Create a container for the timer widget itself
+      const timerWidget = document.createElement('div');
+      wrapper.appendChild(timerWidget);
+
+      // Replace the h3 with the wrapper
+      header.parentNode.insertBefore(wrapper, header);
+      header.remove();
+
+      // Initialize the timer (it will render into timerWidget)
+      new RecipeTimer(timerWidget, duration, unit);
+    }
+  });
+
+  // Request notification permission if there are timers
+  if (document.querySelectorAll('.recipe-timer').length > 0) {
+    if ('Notification' in window && Notification.permission === 'default') {
+      Notification.requestPermission();
+    }
+  }
+
+  // Add beforeunload listener to prevent accidental navigation with active timers
+  window.addEventListener('beforeunload', (e) => {
+    if (activeTimers.size > 0) {
+      e.preventDefault();
+      e.returnValue = 'You have active timers. Are you sure you want to leave?';
+      return e.returnValue;
+    }
+  });
+}
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     loadRecipeData();
@@ -278,6 +551,7 @@ if (document.readyState === 'loading') {
     displayInspirationRecipes();
     performSearch();
     initMobileMenu();
+    initRecipeTimers();
   });
 } else {
   loadRecipeData();
@@ -285,4 +559,5 @@ if (document.readyState === 'loading') {
   displayInspirationRecipes();
   performSearch();
   initMobileMenu();
+  initRecipeTimers();
 }

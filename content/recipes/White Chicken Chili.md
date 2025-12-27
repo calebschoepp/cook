@@ -68,3 +68,10 @@ and cilantro if desired.
 
 > **Note:** You can also just do this in the slow cooker.
 
+
+## Timers
+
+### Timer: 20 minutes - ...id, switch the valve to the sealing position and cook for
+
+### Timer: 10 minutes - ...nce it is done cooking, let it naturally depressurize for
+

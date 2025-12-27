@@ -1,7 +1,7 @@
 ---
 title: Apple Crisp
 description: If you don't need a large pan of this yummy gluten-free apple crisp, feel free to halve all ingredients and bake in an 8"x8" pan instead.
-image: https://mygluten-freekitchen.com/wp-content/uploads/2014/10/Gluten-free-Apple-Crisp-Pan-480x480.jpg
+image: https://mojo.generalmills.com/api/public/content/JZQpwctgQkaJ28FluHnoiQ_webp_base.webp?v=5914d319&t=191ddcab8d1c415fa10fa00a14351227
 courses: Dessert
 source: https://mygluten-freekitchen.com/apple-crisp-gluten-free
 servings: 12
@@ -56,4 +56,9 @@ crumbly. Sprinkle over apples.
 and browned.
 
 6. Serve warm with whipped cream or ice cream.
+
+
+## Timers
+
+### Timer: 45 minutes - Bake at 375°F for
 

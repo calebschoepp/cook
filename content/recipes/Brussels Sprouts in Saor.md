@@ -71,3 +71,12 @@ sprouts, saor, and lemon.
 9. Serve warm or at room temperature. Leftovers keep refrigerated for up to
 5 days.
 
+
+## Timers
+
+### Timer: 30 minutes - Roast sprouts until tender and deeply golden, about
+
+### Timer: 18 minutes - ...nally, until onions are tender and lightly browned, about
+
+### Timer: 4 minutes - ... baking sheet and toast in the oven until lightly golden,
+

@@ -78,3 +78,16 @@ fry until egg whites are set, 2-3 minutes. (NOTE: The yolks will still be runny.
 If preferred, pan-fry eggs using oil, instead of butter.) Top hash with a fried
 egg before serving.
 
+
+## Timers
+
+### Timer: 18-20 minutes - ... flipping halfway through, until tender and golden-brown,
+
+### Timer: 3-4 minutes - ...reen pepper. Cook, stirring occasionally, until softened,
+
+### Timer: 4-6 minutes - ...t. Cook, stirring occasionally, until dark golden- brown,
+
+### Timer: 4-5 minutes - ...orizo sausage into smaller pieces, until no pink remains,
+
+### Timer: 2-3 minutes - ...lack pepper. Cover and pan- fry until egg whites are set,
+

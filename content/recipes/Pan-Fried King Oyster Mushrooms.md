@@ -62,3 +62,12 @@ cook for 2-3 minutes until garlic is toasted.
 7. Stir to combine then season with additional kosher salt, black pepper, and
 lemon to taste.
 
+
+## Timers
+
+### Timer: 5 minutes - ...s and continue cooking until golden brown all over, about
+
+### Timer: 3 minutes - ...nsalted butter, garlic, and ground nutmeg and cook for 2-
+
+### Timer: 2-3 minutes - ...d unsalted butter, garlic, and ground nutmeg and cook for
+
