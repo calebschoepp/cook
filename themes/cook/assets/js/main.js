@@ -4,14 +4,33 @@ let fuse = null;
 
 // Fetch and cache recipe data
 async function loadRecipeData() {
-  if (recipeData) return recipeData;
+  if (recipeData) {
+    console.log('[loadRecipeData] Using cached recipe data');
+    return recipeData;
+  }
 
+  console.log('[loadRecipeData] Fetching /index.json...');
   try {
     const response = await fetch('/index.json');
+    console.log('[loadRecipeData] Fetch response status:', response.status);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
     recipeData = await response.json();
+    console.log('[loadRecipeData] Recipe data loaded:', Object.keys(recipeData).length, 'recipes');
+
+    // Check if Fuse.js is available
+    if (typeof Fuse === 'undefined') {
+      console.error('[loadRecipeData] Fuse.js is not loaded!');
+      throw new Error('Fuse.js library not available');
+    }
+    console.log('[loadRecipeData] Fuse.js is available');
 
     // Initialize Fuse.js for search
     const recipesArray = Object.values(recipeData);
+    console.log('[loadRecipeData] Initializing Fuse with', recipesArray.length, 'recipes');
     fuse = new Fuse(recipesArray, {
       keys: [
         { name: 'title', weight: 3 },
@@ -23,10 +42,11 @@ async function loadRecipeData() {
       includeScore: true,
       ignoreLocation: true
     });
+    console.log('[loadRecipeData] Fuse initialized successfully');
 
     return recipeData;
   } catch (error) {
-    console.error('Failed to load recipe data:', error);
+    console.error('[loadRecipeData] Failed to load recipe data:', error);
     return null;
   }
 }
@@ -91,13 +111,20 @@ window.pickRandomRecipe = async function() {
 
 // Perform search and display results
 async function performSearch() {
+  console.log('[performSearch] Starting search');
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('q');
   const searchQueryInput = document.getElementById('search-query');
   const resultsContainer = document.getElementById('search-results');
   const statsContainer = document.getElementById('search-stats');
 
-  if (!query || !resultsContainer) return;
+  console.log('[performSearch] Query:', query);
+  console.log('[performSearch] Results container exists:', !!resultsContainer);
+
+  if (!query || !resultsContainer) {
+    console.log('[performSearch] Missing query or results container, exiting');
+    return;
+  }
 
   // Set the search input value
   if (searchQueryInput) {
@@ -105,15 +132,21 @@ async function performSearch() {
   }
 
   // Load recipe data and ensure Fuse is initialized
+  console.log('[performSearch] Loading recipe data...');
   await loadRecipeData();
 
+  console.log('[performSearch] Fuse initialized:', !!fuse);
+
   if (!fuse) {
+    console.error('[performSearch] Fuse not initialized, showing error message');
     resultsContainer.innerHTML = '<p class="text-muted-foreground italic col-span-2">Failed to load search index</p>';
     return;
   }
 
   // Perform search
+  console.log('[performSearch] Performing search for:', query);
   const results = fuse.search(query);
+  console.log('[performSearch] Search results count:', results.length);
 
   // Display stats
   if (statsContainer) {

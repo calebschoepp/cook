@@ -2,6 +2,17 @@ const { test, expect } = require('@playwright/test');
 
 test.describe('Search functionality', () => {
   test('should find a specific recipe by exact name', async ({ page }) => {
+    // Capture console logs for debugging
+    const consoleLogs = [];
+    page.on('console', msg => {
+      consoleLogs.push(`${msg.type()}: ${msg.text()}`);
+    });
+
+    // Capture page errors
+    page.on('pageerror', error => {
+      console.error('Page error:', error.message);
+    });
+
     await page.goto('/');
 
     // Find and fill the search input
@@ -18,7 +29,14 @@ test.describe('Search functionality', () => {
     await expect(page).toHaveURL(/q=Apple\+Crisp/);
 
     // Wait for search results to load (wait for the "Loading..." text to disappear)
-    await page.waitForSelector('#search-results:not(:has-text("Loading..."))', { timeout: 30000 });
+    try {
+      await page.waitForSelector('#search-results:not(:has-text("Loading..."))', { timeout: 30000 });
+    } catch (error) {
+      // Log console output on timeout
+      console.log('Console logs from page:');
+      consoleLogs.forEach(log => console.log(log));
+      throw error;
+    }
 
     // Check that the search stats show results
     const searchStats = page.locator('#search-stats');
