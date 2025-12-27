@@ -17,8 +17,8 @@ test.describe('Search functionality', () => {
     // Check that we're on the search page
     await expect(page).toHaveURL(/q=Apple\+Crisp/);
 
-    // Wait for search results to load
-    await page.waitForSelector('#search-results');
+    // Wait for search results to load (wait for the "Loading..." text to disappear)
+    await page.waitForSelector('#search-results:not(:has-text("Loading..."))', { timeout: 30000 });
 
     // Check that the search stats show results
     const searchStats = page.locator('#search-stats');
@@ -47,8 +47,8 @@ test.describe('Search functionality', () => {
     // Wait for navigation to search page
     await page.waitForURL(/\/search/);
 
-    // Wait for search results to load
-    await page.waitForSelector('#search-results');
+    // Wait for search results to load (wait for the "Loading..." text to disappear)
+    await page.waitForSelector('#search-results:not(:has-text("Loading..."))', { timeout: 30000 });
 
     // Check that the search stats show multiple results
     const searchStats = page.locator('#search-stats');
@@ -88,8 +88,8 @@ test.describe('Search functionality', () => {
     // Wait for navigation to search page
     await page.waitForURL(/\/search/);
 
-    // Wait for search results to load
-    await page.waitForSelector('#search-results');
+    // Wait for search results to load (wait for the "Loading..." text to disappear)
+    await page.waitForSelector('#search-results:not(:has-text("Loading..."))', { timeout: 30000 });
 
     // Check that the search stats show 0 results
     const searchStats = page.locator('#search-stats');
