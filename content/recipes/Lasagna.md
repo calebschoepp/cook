@@ -38,7 +38,7 @@ layout: single
 
 1. Preheat oven to 350°F.
 
-2. Brown ground beef. Drain excess fat. 5 seconds.
+2. Brown ground beef. Drain excess fat.
 
 3. Add diced tomatoes, spaghetti mix, and tomato sauce. Cover and simmer for 40
 minutes, stirring occasionally. Salt to taste.
@@ -55,8 +55,6 @@ sauce. Add half the mozzarella cheese.
 
 
 ## Timers
-
-### Timer: 5 seconds - Brown ground beef. Drain excess fat
 
 ### Timer: 40 minutes - ...es, spaghetti mix, and tomato sauce. Cover and simmer for
 
