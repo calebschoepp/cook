@@ -20,14 +20,14 @@ layout: single
 
 ## Ingredients
 
-- *1 cup* gluten-free flour blend
-- *1 cup* gluten-free corn meal
-- *0.25 cup* granulated sugar
+- *1 c* gluten-free flour blend
+- *1 c* gluten-free corn meal
+- *4 tbsp* granulated sugar
 - *2 tsp* gluten-free baking powder
-- *0.5 tsp* salt
+- *1/2 tsp* salt
 - *2* eggs (room temperature)
-- *1 cup* milk
-- *0.25 cup* oil of choice (or melted and cooled butter)
+- *1 c* milk
+- *4 tbsp* oil of choice (or melted and cooled butter)
 
 ## Steps
 

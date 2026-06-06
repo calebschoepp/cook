@@ -20,14 +20,14 @@ layout: single
 ## Ingredients
 
 - *1 lb* ground beef
-- *0.5 cup* celery (chopped)
-- *0.25 cup* onion (chopped)
-- *0.25 cup* green pepper (chopped)
+- *1/2 c* celery (chopped)
+- *4 tbsp* onion (chopped)
+- *4 tbsp* green pepper (chopped)
 - *1 clove* garlic (minced)
 - *2 tsp* salt
-- *3 cups* water
-- *16 oz* diced tomatoes
-- *1 cup* long-grain rice (uncooked)
+- *3 c* water
+- *1 lb* diced tomatoes
+- *1 c* long-grain rice (uncooked)
 - *6 oz* tomato paste
 - *1 tsp* sugar
 - *1 tsp* chili powder

@@ -24,13 +24,13 @@ layout: single
 ## Ingredients
 
 - *8-12 ounces* King Oyster mushrooms
-- *2 tablespoons* olive oil
-- *0.25 teaspoon* kosher salt
-- *0.25 teaspoon* black pepper
-- *2 tablespoons* unsalted butter
+- *2 tbsp* olive oil
+- *1/4 tsp* kosher salt
+- *1/4 tsp* black pepper
+- *2 tbsp* unsalted butter
 - *2 cloves* garlic (thinly sliced)
-- *0.25 teaspoon* ground nutmeg
-- *0.5 cup* parsley leaves
+- *1/4 tsp* ground nutmeg
+- *1/2 c* parsley leaves
 - *1* lemon (zested)
 - kosher salt
 - black pepper

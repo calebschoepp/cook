@@ -20,9 +20,9 @@ layout: single
 
 ## Ingredients
 
-- *0.75 cup* chicken broth
-- *0.75 cup* milk
-- *3 tablespoons* cornstarch
+- *3/4 c* chicken broth
+- *3/4 c* milk
+- *3 tbsp* cornstarch
 
 ## Steps
 

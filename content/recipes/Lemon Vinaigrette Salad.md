@@ -19,15 +19,15 @@ layout: single
 
 ## Ingredients
 
-- *0.25 c* lemon juice
+- *4 tbsp* lemon juice
 - *1* garlic (grated)
 - *1 tsp* Dijon mustard
-- *0.25 tsp* sea salt
+- *1/4 tsp* sea salt
 - ground black pepper
-- *0.5 tsp* honey
+- *1/2 tsp* honey
 - *1/4 to 1/3 c* extra-virgin olive oil
 - *to taste* extra-virgin olive oil
-- *0.5 tsp* thyme
+- *1/2 tsp* thyme
 
 ## Steps
 

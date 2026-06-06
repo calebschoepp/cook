@@ -32,7 +32,7 @@ layout: single
 
 ## Cookware
 
-- *13x9 * baking dish
+- *13x9* baking dish
 
 ## Steps
 

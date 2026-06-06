@@ -34,8 +34,8 @@ layout: single
 - *2* spring onions (finely sliced, reserve some for garnish)
 - *3 tbsp* whole-egg mayonnaise
 - *1 tsp* gochujang
-- *0.5 tsp* sesame oil
-- *0.5 tsp* rice vinegar
+- *1/2 tsp* sesame oil
+- *1/2 tsp* rice vinegar
 - *370 g* cooked jasmine rice
 - *240 g* kimchi
 - *1* carrot (grated)

@@ -23,14 +23,14 @@ layout: single
 - *2* onions (medium)
 - *2* potatoes (medium, sliced)
 - *1-1.5 lb* ground beef
-- *0.5 cup* rice
+- *1/2 c* rice
 - celery salt
-- *1 cup* celery (chopped)
+- *1 c* celery (chopped)
 - salt
 - black pepper
 - paprika
 - *1 can* tomato soup
-- *1 cup* boiling water
+- *1 c* boiling water
 
 ## Cookware
 

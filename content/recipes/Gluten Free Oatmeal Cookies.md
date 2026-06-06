@@ -21,19 +21,19 @@ layout: single
 ## Ingredients
 
 - parchment paper
-- *0.5 cup* unsalted butter (softened)
-- *0.5 cup* granulated sugar
-- *0.5 cup* brown sugar (packed)
+- *1/2 c* unsalted butter (softened)
+- *1/2 c* granulated sugar
+- *1/2 c* brown sugar (packed)
 - *1 tsp* pure vanilla extract
 - *1* egg (large)
-- *1 cup* gluten-free all-purpose flour (with xanthan gum)
-- *0.5 tsp* baking soda
-- *0.5 tsp* baking powder
-- *0.5 tsp* salt
-- *0.5 tsp* ground cinnamon
-- *1.5 cups* gluten-free quick oats
-- *1 cup* chocolate chips
-- *1 cup* raisins
+- *1 c* gluten-free all-purpose flour (with xanthan gum)
+- *1/2 tsp* baking soda
+- *1/2 tsp* baking powder
+- *1/2 tsp* salt
+- *1/2 tsp* ground cinnamon
+- *1 1/2 c* gluten-free quick oats
+- *1 c* chocolate chips
+- *1 c* raisins
 
 ## Cookware
 

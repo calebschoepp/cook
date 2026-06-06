@@ -37,7 +37,7 @@ layout: single
 
 ## Cookware
 
-- *9x13 * baking pan
+- *9x13* baking pan
 
 ## Steps
 

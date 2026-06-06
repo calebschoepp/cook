@@ -24,15 +24,15 @@ layout: single
 - *2 heaping cups* frozen fire-roasted corn (thawed and patted dry)
 - *2 heaping tbsp* mayonnaise
 - *0.5* jalapeno (large, minced with ribs and seeds removed)
-- *0.25 cup* cilantro (chopped)
-- *0.25 cup* cotija cheese (crumbled)
+- *4 tbsp* cilantro (chopped)
+- *4 tbsp* cotija cheese (crumbled)
 - *0.5* lime (zest and juice)
-- *0.5 tsp* Tajin seasoning (optional)
-- *1 cup* blended cottage cheese
+- *1/2 tsp* Tajin seasoning (optional)
+- *1 c* blended cottage cheese
 - *1* avocado (cut into chunks, optional)
 - *2* sweet potatoes (large, peeled and cubed)
 - *1 tbsp* olive oil
-- *1.5 tsp* salt
+- *1/2 tbsp* salt
 - *1 tbsp* olive oil
 - *1 lb* ground beef
 - *2-3 tbsp* taco seasoning

@@ -25,13 +25,13 @@ layout: single
 - *200 g* green bell pepper
 - parsley
 - *4 tbsp* mayonnaise
-- *0.25 tbsp* garlic (pureed)
+- *3/4 tsp* garlic (pureed)
 - *1* onion (sliced)
 - *2 tbsp* balsamic vinegar
 - *1 tsp* sugar
 - *250 g* chorizo sausage
 - *1 tbsp* smoked paprika-garlic blend
-- *0.25 tbsp* garlic (pureed)
+- *3/4 tsp* garlic (pureed)
 - *250 g* chorizo sausage
 - *113 g* baby tomatoes
 - *2 tbsp* butter

@@ -23,16 +23,16 @@ layout: single
 
 ## Ingredients
 
-- *0.25 cup* lime juice
+- *4 tbsp* lime juice
 - *2 limes* zest (zest)
 - *3 tbsp* peanut butter
 - *2 tbsp* peanut oil
 - *1 tsp* sugar
-- *0.5 tsp* garlic (crushed)
-- *0.5 tsp* soy sauce
+- *1/2 tsp* garlic (crushed)
+- *1/2 tsp* soy sauce
 - *6-7 cups* romaine lettuce (chopped and well rinsed)
-- *0.5 cup* sweet corn
-- *0.5 cup* black beans (canned and well rinsed)
+- *1/2 c* sweet corn
+- *1/2 c* black beans (canned and well rinsed)
 - *6 tbsp* feta (crumbled)
 - *4* dates (Medjool and deseeded, chopped into small pieces)
 - *1* avocado (sliced or diced)

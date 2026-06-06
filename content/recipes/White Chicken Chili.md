@@ -27,7 +27,7 @@ layout: single
 - *1* onion (chopped)
 - *15 oz can* corn (with juice)
 - *10 oz can* diced tomatoes with green chilis (with their juice)
-- *0.5 cup* chicken broth
+- *1/2 c* chicken broth
 - *1 tsp* chili powder (or to taste)
 - *1 tsp* cumin powder
 - *0.4 oz packet* ranch dip or dressing mix
@@ -35,7 +35,7 @@ layout: single
 - *2* chicken breasts
 - *8 oz package* cream cheese
 - *1* avocado (diced, for garnish)
-- *0.5 cup* cilantro (for garnish)
+- *1/2 c* cilantro (for garnish)
 - tortilla
 - baked
 

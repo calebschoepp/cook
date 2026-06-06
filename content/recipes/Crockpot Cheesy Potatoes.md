@@ -22,20 +22,20 @@ layout: single
 
 ## Ingredients
 
-- *32 ounces* potato
-- *10.5 ounces* cream of chicken soup
-- *0.75 cup* sour cream
-- *2 tablespoons* butter (cubed)
+- *2 lb* potato
+- *11 oz* cream of chicken soup
+- *3/4 c* sour cream
+- *2 tbsp* butter (cubed)
 - *1* onion (diced)
 - *1 tsp* garlic salt (garlic powder)
 - *1 tsp* onion powder
-- *0.5 tsp* pepper
-- *2 cups* cheese (shredded and divided)
+- *1/2 tsp* pepper
+- *2 c* cheese (shredded and divided)
 - *1 pack* bacon (cooked and chopped)
 
 ## Cookware
 
-- *4-6 quart * slow cooker
+- *4-6 quart* slow cooker
 
 ## Steps
 

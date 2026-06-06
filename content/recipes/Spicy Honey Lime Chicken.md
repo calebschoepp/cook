@@ -31,12 +31,12 @@ layout: single
 - *1 tsp* lime zest (from one lime)
 - *3 tbsp* lime juice (from 1 1/2 to 2 limes)
 - *4 cloves* garlic (minced)
-- *1.5 tbsp* ginger (grated fresh)
+- *1 1/2 tbsp* ginger (grated fresh)
 - *1 tbsp* vegetable oil
-- *1.5 tbsp* Sriracha sauce (for pretty spicy)
-- *1.25 tsp* kosher salt
-- *0.5 tsp* cornstarch (to thicken to glaze consistency)
-- *2.5 pounds* chicken thighs (boneless skinless)
+- *1 1/2 tbsp* Sriracha sauce (for pretty spicy)
+- *1 1/4 tsp* kosher salt
+- *1/2 tsp* cornstarch (to thicken to glaze consistency)
+- *40 oz* chicken thighs (boneless skinless)
 - *2 tbsp* cilantro (chopped)
 - lime wedges
 

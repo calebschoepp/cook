@@ -25,23 +25,23 @@ layout: single
 - *1 lb* boneless chicken breasts or thighs
 - *2 tsp* dried oregano
 - *1 tsp* paprika
-- *0.5 tsp* cayenne pepper
+- *1/2 tsp* cayenne pepper
 - *3 tbsp* fresh thyme leaves
 - salt
 - ground black pepper
 - *4 tbsp* salted butter
-- *1.5 cup* dry rice
+- *1 1/2 c* dry rice
 - *2* shallots (thinly sliced)
 - *4 cloves* garlic (chopped)
 - *1 tbsp* salted butter
 - *1* lemon (sliced)
 - *3-4 cups* low sodium chicken broth
-- *2 cups* chopped spinach
+- *2 c* chopped spinach
 - salt
 - ground black pepper
-- *0.5 cup* pitted green olives
-- *0.5 cup* crumbled feta cheese
-- *0.5 cup* fresh basil leaves
+- *1/2 c* pitted green olives
+- *1/2 c* crumbled feta cheese
+- *1/2 c* fresh basil leaves
 - *2 tbsp* lemon juice
 - extra virgin olive oil
 - salt
