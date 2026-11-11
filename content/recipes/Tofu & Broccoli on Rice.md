@@ -23,13 +23,12 @@ layout: single
 
 #tofu #stir fry #quick #rice bowl
 
-> Crispy pan-fried tofu and boiled broccoli tossed in a glossy Chinese-style
-> brown sauce, served over fluffy rice.
+> Crispy pan-fried tofu and boiled broccoli tossed in a glossy Chinese-style brown sauce, served over fluffy rice.
 
 ## Ingredients
 
-- *2 c* rice
-- *2 c* water (plus 2 tbsp)
+- *2 cups* rice
+- *2 cups* water (plus 2 tbsp)
 - oil
 - *1 block* firm tofu
 - salt
@@ -42,7 +41,7 @@ layout: single
 - *2 tbsp* hoisin
 - *1 tbsp* honey
 - *1 tbsp* sesame oil
-- *4 tbsp* chicken stock
+- *0.25 cup* chicken stock
 - *1 tbsp* cornstarch
 
 ## Cookware
@@ -53,27 +52,19 @@ layout: single
 
 ## Steps
 
-1. Rinse rice to remove the excess starch, then add it to a pressure cooker
-along with the water. Pressure cook for 4 minutes.
+1. Rinse rice to remove the excess starch, then add it to a pressure cooker along with the water. Pressure cook for 4 minutes.
 
-2. Bring a pot of water to a simmer on the stove. Set a pan preheating on low
-heat and drizzle in some oil.
+2. Bring a pot of water to a simmer on the stove. Set a pan preheating on low heat and drizzle in some oil.
 
-3. Slice the firm tofu into 1/2 inch pieces, pat dry, and season with salt and
-pepper. Add to the preheated pan.
+3. Slice the firm tofu into 1/2 inch pieces, pat dry, and season with salt and pepper. Add to the preheated pan.
 
-4. While the tofu fries, chop the garlic and ginger, and cut the broccoli into
-florets. Flip the tofu to crisp up the second side.
+4. While the tofu fries, chop the garlic and ginger, and cut the broccoli into florets. Flip the tofu to crisp up the second side.
 
-5. In a bowl, whisk together the soy sauce, Chinese cooking wine, hoisin, honey,
-sesame oil, chicken stock, and cornstarch until there are no lumps.
+5. In a bowl, whisk together the soy sauce, Chinese cooking wine, hoisin, honey, sesame oil, chicken stock, and cornstarch until there are no lumps.
 
-6. Drop the broccoli into the simmering water and boil for 2 minutes. Remove the
-tofu from the pan, then add the garlic and ginger and fry for 1-2 minutes. Pour
-in the sauce and stir until it thickens and bubbles.
+6. Drop the broccoli into the simmering water and boil for 2 minutes. Remove the tofu from the pan, then add the garlic and ginger and fry for 1-2 minutes. Pour in the sauce and stir until it thickens and bubbles.
 
-7. Cut up the tofu, then add it and the boiled broccoli into the pan. Stir to
-coat everything in the sauce and serve over the hot rice.
+7. Cut up the tofu, then add it and the boiled broccoli into the pan. Stir to coat everything in the sauce and serve over the hot rice.
 
 
 ## Timers

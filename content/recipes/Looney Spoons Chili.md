@@ -46,17 +46,13 @@ layout: single
 
 ## Steps
 
-1. Cook extra-lean ground beef and garlic in a large non-stick skillet or pot
-over medium-high heat until beef is no longer pink. Drain fat if necessary.
+1. Cook extra-lean ground beef and garlic in a large non-stick skillet or pot over medium-high heat until beef is no longer pink. Drain fat if necessary.
 
-2. Add celery, green bell pepper, and red onion. Cook, stirring, for 3 minutes,
-until vegetables begin to soften.
+2. Add celery, green bell pepper, and red onion. Cook, stirring, for 3 minutes, until vegetables begin to soften.
 
-3. Stir in chili powder, ground cumin, dried oregano, ground coriander, and
-black pepper. Cook for 1 minutes.
+3. Stir in chili powder, ground cumin, dried oregano, ground coriander, and black pepper. Cook for 1 minutes.
 
-4. Add diced tomatoes, tomato sauce, beef broth, celery leaves, and barbecue
-sauce. Bring to a boil.
+4. Add diced tomatoes, tomato sauce, beef broth, celery leaves, and barbecue sauce. Bring to a boil.
 
 5. Reduce heat to low, cover, and simmer for 20 minutes, stirring occasionally.
 
@@ -64,8 +60,7 @@ sauce. Bring to a boil.
 
 7. Remove from heat. Stir in fresh cilantro, lime juice, and honey.
 
-8. Serve hot optionally with cheddar cheese, sour cream, avocado, or green
-onions.
+8. Serve hot optionally with cheddar cheese, sour cream, avocado, or green onions.
 
 > **Note:** This recipe improves overnight
 

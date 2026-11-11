@@ -23,16 +23,15 @@ layout: single
 
 #mexican #slow cooker #chicken #tacos
 
-> Tender shredded chicken thighs slow-cooked with fire-roasted tomatoes,
-> chipotle, and Mexican spices into a smoky sauce perfect for tacos and more.
+> Tender shredded chicken thighs slow-cooked with fire-roasted tomatoes, chipotle, and Mexican spices into a smoky sauce perfect for tacos and more.
 
 ## Ingredients
 
 - *1* white onion
 - *3 cloves* garlic
-- *15 oz* fire-roasted diced tomatoes
+- *14.5 oz* fire-roasted diced tomatoes
 - *2 lb* bone-in skinless chicken thighs
-- *1 tbsp* kosher salt
+- *3 tsp* kosher salt
 - black
 - *1 tsp* ground cumin
 - *1 tsp* Mexican oregano
@@ -51,31 +50,21 @@ layout: single
 
 ## Steps
 
-1. Dice the white onion and smash the garlic with the side of a knife. Place the
-onion and garlic in the bottom of a slow cooker.
+1. Dice the white onion and smash the garlic with the side of a knife. Place the onion and garlic in the bottom of a slow cooker.
 
-2. Pour the fire-roasted diced tomatoes over the aromatics, then lay the bone-in
-skinless chicken thighs on top of the tomato mixture.
+2. Pour the fire-roasted diced tomatoes over the aromatics, then lay the bone-in skinless chicken thighs on top of the tomato mixture.
 
-3. Season with kosher salt, black pepper, ground cumin, and Mexican oregano.
-Add chipotle peppers in adobo and, if you like, optional chili powder, smoked
-paprika, and a bay leaf.
+3. Season with kosher salt, black pepper, ground cumin, and Mexican oregano. Add chipotle peppers in adobo and, if you like, optional chili powder, smoked paprika, and a bay leaf.
 
-4. Cover and cook on low for 6 hours (or high for 3 hours) until the chicken is
-tender enough to fall apart. (In an Instant Pot, you can pressure cook for as
-little as 15 minutes; if it has a sear function, brown the chicken and onions
-first.)
+4. Cover and cook on low for 6 hours (or high for 3 hours) until the chicken is tender enough to fall apart. (In an Instant Pot, you can pressure cook for as little as 15 minutes; if it has a sear function, brown the chicken and onions first.)
 
 5. Remove the chicken, let it cool for 5-10 minutes, then shred with two forks.
 
-6. Discard the bay leaf and blend the remaining liquid smooth with a hand
-blender.
+6. Discard the bay leaf and blend the remaining liquid smooth with a hand blender.
 
-7. Return the shredded chicken to the sauce, stir to coat, and set to high for
-10 minutes to reduce.
+7. Return the shredded chicken to the sauce, stir to coat, and set to high for 10 minutes to reduce.
 
-8. Serve warm in corn tortillas with avocado and lime, or use as a filling for
-tacos, burritos, quesadillas, enchiladas, or nachos.
+8. Serve warm in corn tortillas with avocado and lime, or use as a filling for tacos, burritos, quesadillas, enchiladas, or nachos.
 
 
 ## Timers

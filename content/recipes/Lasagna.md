@@ -40,14 +40,11 @@ layout: single
 
 2. Brown ground beef. Drain excess fat.
 
-3. Add diced tomatoes, spaghetti mix, and tomato sauce. Cover and simmer for 40
-minutes, stirring occasionally. Salt to taste.
+3. Add diced tomatoes, spaghetti mix, and tomato sauce. Cover and simmer for 40 minutes, stirring occasionally. Salt to taste.
 
-4. Combine the sauce, lasagna noodles, cottage cheese, and mozzarella cheese
-into three layers. Save extra mozzarella for the top.
+4. Combine the sauce, lasagna noodles, cottage cheese, and mozzarella cheese into three layers. Save extra mozzarella for the top.
 
-5. Place half the lasagna noodles in a baking dish. Cover with a third of the
-sauce. Add half the mozzarella cheese.
+5. Place half the lasagna noodles in a baking dish. Cover with a third of the sauce. Add half the mozzarella cheese.
 
 6. Bake in a oven for 25-30 minutes.
 

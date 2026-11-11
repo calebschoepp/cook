@@ -23,8 +23,7 @@ layout: single
 
 #vegetarian #curry #indian #weeknight
 
-> Crispy golden paneer cubes and tender chickpeas simmered in a creamy tikka
-> sauce with spinach.
+> Crispy golden paneer cubes and tender chickpeas simmered in a creamy tikka sauce with spinach.
 
 ## Ingredients
 
@@ -32,16 +31,16 @@ layout: single
 - *1 tbsp* butter
 - salt
 - pepper
-- *1/2 tbsp* cumin-turmeric spice blend
+- *1.5 tsp* cumin-turmeric spice blend
 - *0.5* yellow onion (cut into 1/4-inch pieces)
 - *1* tomato (cut into 1/2-inch pieces)
 - *56 g* baby spinach
 - *7 g* cilantro
 - *1 tbsp* butter
-- *1/2 c* tikka sauce
+- *0.5 cup* tikka sauce
 - *1 tbsp* vegetable stock powder
-- *1/2 c* water
-- *398 ml* chickpeas (with canning liquid)
+- *0.5 cup* water
+- *398 mL* chickpeas (with canning liquid)
 - salt
 - pepper
 
@@ -51,29 +50,17 @@ layout: single
 
 ## Steps
 
-1. Heat a large non-stick pan over medium-high heat. Cut paneer into 1/2-inch
-cubes. Add butter and swirl to melt. Add the paneer, season with salt, pepper,
-and cumin-turmeric spice blend, and pan-fry, turning occasionally, until crispy
-and golden, 4-5 minutes. Transfer to a plate.
+1. Heat a large non-stick pan over medium-high heat. Cut paneer into 1/2-inch cubes. Add butter and swirl to melt. Add the paneer, season with salt, pepper, and cumin-turmeric spice blend, and pan-fry, turning occasionally, until crispy and golden, 4-5 minutes. Transfer to a plate.
 
-2. Meanwhile, peel and cut yellow onion. Cut tomato. Roughly chop baby spinach
-and cilantro.
+2. Meanwhile, peel and cut yellow onion. Cut tomato. Roughly chop baby spinach and cilantro.
 
-3. Return the same pan to medium heat. Add butter and swirl to melt. Add the
-onion and tomato and cook, stirring occasionally, until softened, 3-4 minutes.
+3. Return the same pan to medium heat. Add butter and swirl to melt. Add the onion and tomato and cook, stirring occasionally, until softened, 3-4 minutes.
 
-4. Stir in tikka sauce and vegetable stock powder and cook, stirring often,
-until the sauce thickens slightly, 30 seconds. Add water, chickpeas. Bring
-to a simmer over high heat, then reduce to medium. Cover and cook, stirring
-occasionally, until the chickpeas are tender and the tomatoes have broken down,
-8-10 minutes.
+4. Stir in tikka sauce and vegetable stock powder and cook, stirring often, until the sauce thickens slightly, 30 seconds. Add water, chickpeas. Bring to a simmer over high heat, then reduce to medium. Cover and cook, stirring occasionally, until the chickpeas are tender and the tomatoes have broken down, 8-10 minutes.
 
-5. Add the spinach, half the paneer, and half the cilantro. Cook, stirring
-often, until the spinach wilts, 1-2 minutes. Add more water 2 tbsp at a time if
-too thick. Season with salt and pepper.
+5. Add the spinach, half the paneer, and half the cilantro. Cook, stirring often, until the spinach wilts, 1-2 minutes. Add more water 2 tbsp at a time if too thick. Season with salt and pepper.
 
-6. Divide the curry between bowls. Top with the remaining paneer and sprinkle
-the remaining cilantro over top.
+6. Divide the curry between bowls. Top with the remaining paneer and sprinkle the remaining cilantro over top.
 
 
 ## Timers

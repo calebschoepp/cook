@@ -15,8 +15,7 @@ layout: single
 
 # Apple Crisp
 
-> If you don't need a large pan of this yummy gluten-free apple crisp, feel free
-> to halve all ingredients and bake in an 8"x8" pan instead.
+> If you don't need a large pan of this yummy gluten-free apple crisp, feel free to halve all ingredients and bake in an 8"x8" pan instead.
 
 ## Ingredients
 
@@ -43,17 +42,13 @@ layout: single
 
 1. Preheat oven to 375°F.
 
-2. In a large bowl, stir together apples, cinnamon, lemon juice, and water.
-Scoop into baking pan.
+2. In a large bowl, stir together apples, cinnamon, lemon juice, and water. Scoop into baking pan.
 
-3. In a medium bowl, whisk together brown sugar, gluten-free all-purpose flour,
-gluten-free rolled oats or old-fashioned oats, cinnamon, nutmeg, and salt.
+3. In a medium bowl, whisk together brown sugar, gluten-free all-purpose flour, gluten-free rolled oats or old-fashioned oats, cinnamon, nutmeg, and salt.
 
-4. Use a pastry cutter or 2 knives to cut in unsalted butter until mixture is
-crumbly. Sprinkle over apples.
+4. Use a pastry cutter or 2 knives to cut in unsalted butter until mixture is crumbly. Sprinkle over apples.
 
-5. Bake at 375°F for 45 minutes or until apples are tender and topping is crisp
-and browned.
+5. Bake at 375°F for 45 minutes or until apples are tender and topping is crisp and browned.
 
 6. Serve warm with whipped cream or ice cream.
 

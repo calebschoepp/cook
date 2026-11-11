@@ -24,8 +24,7 @@ layout: single
 
 #noodles #peanut #vegetarian #quick #lunch
 
-> Soba noodles tossed with seared mushrooms and cabbage in a savory-spicy peanut
-> sauce, finished with fresh cilantro and scallion.
+> Soba noodles tossed with seared mushrooms and cabbage in a savory-spicy peanut sauce, finished with fresh cilantro and scallion.
 
 ## Ingredients
 
@@ -37,10 +36,10 @@ layout: single
 - *1* lime
 - *1 clove* garlic (grated)
 - *1 small knob* ginger (grated)
-- *4 tbsp* water
+- *0.25 cup* water
 - oil
-- *1 c* mushrooms
-- *1/2 c* cabbage
+- *1 cup* mushrooms
+- *0.5 cup* cabbage
 - salt
 - *2 servings* soba noodles
 - scallion (chopped)
@@ -54,24 +53,17 @@ layout: single
 
 ## Steps
 
-1. In a bowl combine the peanut butter, sambal, soy sauce, honey, sesame oil,
-juice of lime, garlic, ginger, and water. Whisk into a smooth sauce and set
-aside.
+1. In a bowl combine the peanut butter, sambal, soy sauce, honey, sesame oil, juice of lime, garlic, ginger, and water. Whisk into a smooth sauce and set aside.
 
-2. Heat a drizzle of oil in a skillet over medium heat. Tear up the mushrooms
-and add them to the pan, tossing to coat, and let them cook until browned.
+2. Heat a drizzle of oil in a skillet over medium heat. Tear up the mushrooms and add them to the pan, tossing to coat, and let them cook until browned.
 
-3. Slice the cabbage leaves and add to the mushrooms. Season with salt, adding
-more oil if needed, and cook another 1-2 minutes before removing to cool.
+3. Slice the cabbage leaves and add to the mushrooms. Season with salt, adding more oil if needed, and cook another 1-2 minutes before removing to cool.
 
-4. Meanwhile, boil the soba noodles in a pot according to package instructions,
-then drain.
+4. Meanwhile, boil the soba noodles in a pot according to package instructions, then drain.
 
-5. In the cleaned skillet, add the peanut sauce and let it bubble on low heat
-to thicken.
+5. In the cleaned skillet, add the peanut sauce and let it bubble on low heat to thicken.
 
-6. Once thickened, toss in the cooked noodles, mushrooms, and cabbage until
-everything is coated. Top with scallion and cilantro and serve.
+6. Once thickened, toss in the cooked noodles, mushrooms, and cabbage until everything is coated. Top with scallion and cilantro and serve.
 
 
 ## Timers

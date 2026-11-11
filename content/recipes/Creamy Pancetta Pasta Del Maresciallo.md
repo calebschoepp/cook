@@ -24,8 +24,7 @@ layout: single
 
 #pasta #italian #pancetta #creamy #quick
 
-> An easy, quick Southern Italian pasta tossed in a creamy tomato and pancetta
-> sauce.
+> An easy, quick Southern Italian pasta tossed in a creamy tomato and pancetta sauce.
 
 ## Ingredients
 
@@ -49,20 +48,13 @@ layout: single
 
 1. Cube the pancetta if needed, then peel and finely chop the onion.
 
-2. Heat the extra virgin olive oil in a large skillet. Cook the onion for a
-couple of minutes until soft, then add the pancetta and sauté until it starts
-to brown.
+2. Heat the extra virgin olive oil in a large skillet. Cook the onion for a couple of minutes until soft, then add the pancetta and sauté until it starts to brown.
 
-3. Add the tomato passata with a pinch of salt and black pepper. Cook over high
-heat for 5 minutes, then simmer gently on low heat for another 10 minutes. Stir
-in the fresh cream and cook a further 5 minutes.
+3. Add the tomato passata with a pinch of salt and black pepper. Cook over high heat for 5 minutes, then simmer gently on low heat for another 10 minutes. Stir in the fresh cream and cook a further 5 minutes.
 
-4. Meanwhile, bring a large pot of water to a boil. Salt it once boiling, then
-cook the penne pasta until al dente per the package instructions.
+4. Meanwhile, bring a large pot of water to a boil. Salt it once boiling, then cook the penne pasta until al dente per the package instructions.
 
-5. Drain the pasta, add it to the sauce, mix, and sauté over high heat for 2-
-3 minutes. Serve immediately topped with grated Parmigiano Reggiano and chopped
-parsley.
+5. Drain the pasta, add it to the sauce, mix, and sauté over high heat for 2-3 minutes. Serve immediately topped with grated Parmigiano Reggiano and chopped parsley.
 
 
 ## Timers
@@ -71,5 +63,5 @@ parsley.
 
 ### Timer: 10 minutes - ...for 5 minutes, then simmer gently on low heat for another
 
-### Timer: 2-3 minutes
+### Timer: 2-3 minutes - ..., add it to the sauce, mix, and sauté over high heat for
 

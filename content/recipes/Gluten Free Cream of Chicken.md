@@ -15,25 +15,21 @@ layout: single
 
 # Gluten Free Cream of Chicken
 
-> Substitute this gluten free version of cream of chicken soup in your favorite
-> recipes!
+> Substitute this gluten free version of cream of chicken soup in your favorite recipes!
 
 ## Ingredients
 
-- *3/4 c* chicken broth
-- *3/4 c* milk
-- *3 tbsp* cornstarch
+- *0.75 cup* chicken broth
+- *0.75 cup* milk
+- *3 tablespoons* cornstarch
 
 ## Steps
 
-1. Stir together chicken broth, milk, and cornstarch in a saucepan until the
-cornstarch is completely dissolved.
+1. Stir together chicken broth, milk, and cornstarch in a saucepan until the cornstarch is completely dissolved.
 
-2. Cook over medium heat, stirring constantly, until the mixture is bubbling,
-about 5 minutes.
+2. Cook over medium heat, stirring constantly, until the mixture is bubbling, about 5 minutes.
 
-3. Reduce heat to medium-low; continue to cook and stir until mixture is very
-thick, about 5 minutes. Remove from heat.
+3. Reduce heat to medium-low; continue to cook and stir until mixture is very thick, about 5 minutes. Remove from heat.
 
 > **Note:** Replaces one can of cream of chicken soup in recipes. Use in casseroles, soups, and more!
 

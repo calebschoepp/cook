@@ -15,11 +15,9 @@ layout: single
 
 ## Steps
 
-1. Roast em, mash em, fry em, bake em, boil em, hasselback em, hashbrown em!
-Get exotic.
+1. Roast em, mash em, fry em, bake em, boil em, hasselback em, hashbrown em! Get exotic.
 
-2. Top em with ketchup, sour cream, chives, cheese, bacon bits, butter, garlic,
-herbs, gravy, or whatever you like.
+2. Top em with ketchup, sour cream, chives, cheese, bacon bits, butter, garlic, herbs, gravy, or whatever you like.
 
 3. Don't forget sweet potatoes too! They're good with brown sugar.
 

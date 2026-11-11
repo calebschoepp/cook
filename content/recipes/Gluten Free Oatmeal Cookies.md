@@ -15,25 +15,24 @@ layout: single
 
 # Gluten Free Oatmeal Cookies
 
-> Soft and chewy gluten-free oatmeal cookies with crisp edges that come together
-> quickly from pantry staples.
+> Soft and chewy gluten-free oatmeal cookies with crisp edges that come together quickly from pantry staples.
 
 ## Ingredients
 
 - parchment paper
-- *1/2 c* unsalted butter (softened)
-- *1/2 c* granulated sugar
-- *1/2 c* brown sugar (packed)
+- *0.5 cup* unsalted butter (softened)
+- *0.5 cup* granulated sugar
+- *0.5 cup* brown sugar (packed)
 - *1 tsp* pure vanilla extract
 - *1* egg (large)
-- *1 c* gluten-free all-purpose flour (with xanthan gum)
-- *1/2 tsp* baking soda
-- *1/2 tsp* baking powder
-- *1/2 tsp* salt
-- *1/2 tsp* ground cinnamon
-- *1 1/2 c* gluten-free quick oats
-- *1 c* chocolate chips
-- *1 c* raisins
+- *1 cup* gluten-free all-purpose flour (with xanthan gum)
+- *0.5 tsp* baking soda
+- *0.5 tsp* baking powder
+- *0.5 tsp* salt
+- *0.5 tsp* ground cinnamon
+- *1.5 cups* gluten-free quick oats
+- *1 cup* chocolate chips
+- *1 cup* raisins
 
 ## Cookware
 
@@ -46,18 +45,15 @@ layout: single
 
 1. Preheat the oven to 375°F. Line 2 baking sheets with parchment paper.
 
-2. In a large mixing bowl, beat together unsalted butter, granulated sugar, and
-brown sugar until smooth.
+2. In a large mixing bowl, beat together unsalted butter, granulated sugar, and brown sugar until smooth.
 
 3. Mix in pure vanilla extract and egg until fully combined.
 
-4. Add gluten-free all-purpose flour, baking soda, baking powder, salt, ground
-cinnamon, and gluten-free quick oats. Mix until fully combined.
+4. Add gluten-free all-purpose flour, baking soda, baking powder, salt, ground cinnamon, and gluten-free quick oats. Mix until fully combined.
 
 5. Fold in chocolate chips or raisins.
 
-6. Scoop the dough with a greased 1 1/2-tablespoon cookie scoop and place the
-cookies 2 inches apart on the prepared baking sheets.
+6. Scoop the dough with a greased 1 1/2-tablespoon cookie scoop and place the cookies 2 inches apart on the prepared baking sheets.
 
 7. Bake for 10-12 minutes, until the cookies start to turn golden brown.
 

@@ -28,8 +28,7 @@ layout: single
 
 1. Mix margarine becel and sugar thoroughly.
 
-2. Add eggs one at a time, reserving 1/2 yolk in a small dish with a few drops
-of water.
+2. Add eggs one at a time, reserving 1/2 yolk in a small dish with a few drops of water.
 
 3. Mix in almond extract and gluten-free all-purpose flour until combined.
 

@@ -23,8 +23,7 @@ layout: single
 
 #chicken #rice #one pot #weeknight
 
-> Crispy seared bone-in chicken thighs cooked over fragrant jasmine rice
-> finished with fresh lime juice and cilantro, all in one pot.
+> Crispy seared bone-in chicken thighs cooked over fragrant jasmine rice finished with fresh lime juice and cilantro, all in one pot.
 
 ## Ingredients
 
@@ -34,12 +33,12 @@ layout: single
 - *2-3 tbsp* vegetable oil
 - *2 tbsp* butter
 - *4 cloves* garlic (finely chopped)
-- *2 c* jasmine rice (rinsed)
+- *2 cups* jasmine rice (rinsed)
 - salt
 - pepper
-- *3 c* water
+- *3 cups* water
 - *2 limes* lime juice
-- *1/3 c* cilantro (finely chopped)
+- *0.333 cup* cilantro (finely chopped)
 
 ## Cookware
 
@@ -47,23 +46,15 @@ layout: single
 
 ## Steps
 
-1. Pat chicken thighs dry and season generously with salt and pepper. Add
-vegetable oil to a cold Dutch oven and swirl to coat. Place chicken skin-side
-down, then turn heat to medium.
+1. Pat chicken thighs dry and season generously with salt and pepper. Add vegetable oil to a cold Dutch oven and swirl to coat. Place chicken skin-side down, then turn heat to medium.
 
-2. Cook undisturbed until the skin is golden and releases easily, 8-10 minutes.
-Flip and cook another 3-5 minutes. Move the chicken to a plate and let the pot
-cool off the heat for 2-3 minutes, discarding some excess oil if desired.
+2. Cook undisturbed until the skin is golden and releases easily, 8-10 minutes. Flip and cook another 3-5 minutes. Move the chicken to a plate and let the pot cool off the heat for 2-3 minutes, discarding some excess oil if desired.
 
-3. Return the pot to low heat, melt butter, and add garlic, cooking about 1
-minute. Stir in jasmine rice to coat, then season with salt and pepper.
+3. Return the pot to low heat, melt butter, and add garlic, cooking about 1 minute. Stir in jasmine rice to coat, then season with salt and pepper.
 
-4. Pour in water and stir. Nestle the chicken back in skin-side up. Raise heat
-to medium and bring to a simmer. Once bubbling, cover, lower the heat, and cook
-25 minutes. Remove from heat and rest 10 minutes with the lid on.
+4. Pour in water and stir. Nestle the chicken back in skin-side up. Raise heat to medium and bring to a simmer. Once bubbling, cover, lower the heat, and cook 25 minutes. Remove from heat and rest 10 minutes with the lid on.
 
-5. Take out the chicken, then stir lime juice and cilantro into the rice with a
-fork. Serve with the chicken.
+5. Take out the chicken, then stir lime juice and cilantro into the rice with a fork. Serve with the chicken.
 
 
 ## Timers

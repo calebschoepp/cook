@@ -15,9 +15,7 @@ layout: single
 
 ## Steps
 
-1. Carrots, broccoli, cauliflower, green beans, asparagus, brussels sprouts,
-zucchini, squash, bell peppers, snap peas, mushrooms, spinach, kale.
+1. Carrots, broccoli, cauliflower, green beans, asparagus, brussels sprouts, zucchini, squash, bell peppers, snap peas, mushrooms, spinach, kale.
 
-2. Steam it, roast it, sauté it, grill it, eat it raw! Add your favorite
-seasonings, herbs, and sauces.
+2. Steam it, roast it, sauté it, grill it, eat it raw! Add your favorite seasonings, herbs, and sauces.
 

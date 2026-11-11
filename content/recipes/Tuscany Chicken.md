@@ -24,23 +24,22 @@ layout: single
 
 #chicken #creamy #italian #skillet #low-carb
 
-> Seared chicken breasts simmered in a creamy parmesan sauce with sun-dried
-> tomatoes and spinach.
+> Seared chicken breasts simmered in a creamy parmesan sauce with sun-dried tomatoes and spinach.
 
 ## Ingredients
 
 - *4* boneless skinless chicken breasts (6-ounce each)
 - *1 tsp* Italian seasoning
 - *1 tsp* kosher salt
-- *1/2 tsp* freshly ground black pepper
+- *0.5 tsp* freshly ground black pepper
 - *2 tbsp* extra virgin olive oil
 - *1 tbsp* extra virgin olive oil
-- *4 tbsp* yellow onion (finely chopped)
-- *1/2 c* sun-dried tomatoes (thinly sliced)
+- *0.25 cup* yellow onion (finely chopped)
+- *0.5 cup* sun-dried tomatoes (thinly sliced)
 - *4 cloves* garlic (minced)
-- *2 c* baby spinach
-- *1 1/2 c* heavy cream
-- *4 tbsp* parmesan (freshly grated)
+- *2 cups* baby spinach
+- *1.5 cups* heavy cream
+- *0.25 cup* parmesan (freshly grated)
 
 ## Cookware
 
@@ -48,14 +47,11 @@ layout: single
 
 ## Steps
 
-1. Season both sides of boneless skinless chicken breasts with Italian
-seasoning, kosher salt, and freshly ground black pepper.
+1. Season both sides of boneless skinless chicken breasts with Italian seasoning, kosher salt, and freshly ground black pepper.
 
-2. Heat extra virgin olive oil in a large skillet over medium heat. Sear the
-chicken for 3-4 minutes per side until golden, then remove to a plate.
+2. Heat extra virgin olive oil in a large skillet over medium heat. Sear the chicken for 3-4 minutes per side until golden, then remove to a plate.
 
-3. Add another extra virgin olive oil and the yellow onion to the same skillet.
-Sauté for 2-3 minutes until softened.
+3. Add another extra virgin olive oil and the yellow onion to the same skillet. Sauté for 2-3 minutes until softened.
 
 4. Add sun-dried tomatoes and garlic; sauté for 1 minute until fragrant.
 
@@ -63,8 +59,7 @@ Sauté for 2-3 minutes until softened.
 
 6. Add heavy cream and parmesan, stir together, and bring to a simmer.
 
-7. Return the chicken to the skillet and cook until heated through, about
-5 minutes.
+7. Return the chicken to the skillet and cook until heated through, about 5 minutes.
 
 
 ## Timers
